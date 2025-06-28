@@ -2,7 +2,15 @@
 
 import { useState, useRef, useEffect } from "react";
 
+// Define the type message, makes it easier for the Message type decleration
+interface Message {
+  sender: "user" | "ai";
+  text: string;
+}
+
 export default function Home() {
+  const [messages, setMessages] = useState<Message[]>([]); // State the tracks an array of userMessages
+  const [isLoading, setIsLoading] = useState(false); // State that tracks the loading state during an API call
   const [inputValue, setInputValue] = useState(""); // State that tracks the input of the user, will be effected by STT if used
   const [isListening, setIsListening] = useState(false); // State the tracks if the client is listening to the user
   const recognitionRef = useRef<any>(null); // Used to define the recognition object, must be type any and defualted to null
@@ -58,6 +66,8 @@ export default function Home() {
     };
   }, []);
 
+  // Listening Logic for Web Speech API
+  // Only does recognition when not listening
   const handleListen = () => {
     const recognition = recognitionRef.current;
     if (!recognition) return;
@@ -69,12 +79,30 @@ export default function Home() {
     }
   };
 
+  // When the user submits, a message is appended to the messages array -> API is called
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!inputValue.trim()) return;
-    console.log("User Input:", inputValue);
-    // Logic to handle submission will go here
+
+    const newMessages: Message[] = [
+      ...messages,
+      { sender: "user", text: inputValue },
+    ];
+    setMessages(newMessages);
     setInputValue("");
+    setIsLoading(true);
+
+    // Simulate API Call
+    setTimeout(() => {
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        {
+          sender: "ai",
+          text: "This is a simulated AI response. The real one will be much smarter!",
+        },
+      ]);
+      setIsLoading(false);
+    }, 2000);
   };
 
   return (
@@ -90,13 +118,46 @@ export default function Home() {
 
       <main className="flex-1 overflow-y-auto p-6">
         <div className="flex flex-col space-y-4">
-          {/* Chat messages will be rendered here */}
-          <div className="flex items-center justify-center h-full text-gray-400">
-            <div className="text-center">
-              <p>Ask a question to get started!</p>
-              <p className="text-xs">e.g., "Where can I find the best BBQ?"</p>
+          {messages.length === 0 && !isLoading ? (
+            <div className="flex items-center justify-center h-full text-gray-400">
+              <div className="text-center">
+                <p>Ask a question to get started!</p>
+                <p className="text-xs">
+                  e.g., "Where can I find the best BBQ?"
+                </p>
+              </div>
             </div>
-          </div>
+          ) : (
+            messages.map((message, index) => (
+              <div
+                key={index}
+                className={`flex ${
+                  message.sender === "user" ? "justify-end" : "justify-start"
+                }`}
+              >
+                <div
+                  className={`max-w-xs lg:max-w-md p-3 rounded-lg ${
+                    message.sender === "user"
+                      ? "bg-blue-600 text-white"
+                      : "bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                  }`}
+                >
+                  <p>{message.text}</p>
+                </div>
+              </div>
+            ))
+          )}
+          {isLoading && (
+            <div className="flex justify-start">
+              <div className="p-3 rounded-lg ">
+                <div className="flex items-center space-x-2">
+                  <div className="w-full h-auto   animate-pulse [animation-delay:0.4s]">
+                    <p>Digitally Driving around Fort Worth</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </main>
 
