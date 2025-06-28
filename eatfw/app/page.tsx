@@ -1,9 +1,73 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 export default function Home() {
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState(""); // State that tracks the input of the user, will be effected by STT if used
+  const [isListening, setIsListening] = useState(false); // State the tracks if the client is listening to the user
+  const recognitionRef = useRef<any>(null); // Used to define the recognition object, must be type any and defualted to null
+
+  // Create the Speech Recogntion object in a UseEffect hook
+  // This is where the website asks the user if it can record its voice
+
+  useEffect(() => {
+    const SpeechRecognition =
+      (window as any).SpeechRecognition ||
+      (window as any).webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      console.warn("Speech recognition not supported in this browser.");
+      // Here you could disable the microphone button
+      return;
+    }
+
+    const recognition = new SpeechRecognition();
+    recognition.continuous = true; // Listens until the users hits the button again
+    recognition.interimResults = true; // The magic line for live transcripitions
+    recognition.lang = "en-US"; // Defines the language
+
+    // On start, the setIsListening state will be set to true
+    recognition.onstart = () => {
+      setIsListening(true);
+    };
+
+    // On end, the setIsListening state will be set to false
+    recognition.onend = () => {
+      setIsListening(false);
+    };
+
+    // Reports an error if one is thrown
+    recognition.onerror = (e: any) => {
+      console.error("Speech recognition error:", e.error);
+      setIsListening(false);
+    };
+
+    // Updates the input fields value as the user continues to talk to the app
+    recognition.onresult = (e: any) => {
+      const transcript = Array.from(e.results)
+        .map((result: any) => result[0])
+        .map((result: any) => result.transcript)
+        .join("");
+      setInputValue(transcript);
+    };
+
+    recognitionRef.current = recognition;
+
+    return () => {
+      recognition.stop();
+    };
+  }, []);
+
+  const handleListen = () => {
+    const recognition = recognitionRef.current;
+    if (!recognition) return;
+
+    if (isListening) {
+      recognition.stop();
+    } else {
+      recognition.start();
+    }
+  };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -52,8 +116,10 @@ export default function Home() {
             <div className="flex gap-x-2">
               <button
                 type="button"
-                className="p-2 text-gray-500 rounded-full hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 cursor-pointer"
-                // onClick for voice will be implemented later
+                onClick={handleListen}
+                className={`p-2 text-gray-500 rounded-full hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 cursor-pointer ${
+                  isListening ? "bg-red-500 text-white animate-pulse" : ""
+                }`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
