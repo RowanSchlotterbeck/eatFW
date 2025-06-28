@@ -1,0 +1,901 @@
+[
+  {
+    "address": "1422 Main St, Fort Worth, TX",
+    "price_range": "$$$",
+    "menu": [
+      {
+        "item": "Chinese Special 1",
+        "price": 9.81
+      },
+      {
+        "item": "Chinese Special 2",
+        "price": 13.36
+      },
+      {
+        "item": "Chinese Special 3",
+        "price": 10.99
+      },
+      {
+        "item": "Chinese Special 4",
+        "price": 20.93
+      },
+      {
+        "item": "Chinese Special 5",
+        "price": 14.47
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 43,
+      "11:30": 36,
+      "12:00": 26,
+      "12:30": 2,
+      "13:00": 25,
+      "13:30": 44,
+      "14:00": 36,
+      "14:30": 26,
+      "15:00": 42,
+      "15:30": 45,
+      "16:00": 2,
+      "16:30": 10,
+      "17:00": 28,
+      "17:30": 4,
+      "18:00": 16,
+      "18:30": 44,
+      "19:00": 10,
+      "19:30": 28,
+      "20:00": 33,
+      "20:30": 31,
+      "21:00": 35,
+      "21:30": 38
+    },
+    "summary": "Noodle House is a Chinese restaurant located at 1422 Main St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Spice Route",
+    "cuisine": "Indian",
+    "address": "101 Main St, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Indian Special 1",
+        "price": 13.15
+      },
+      {
+        "item": "Indian Special 2",
+        "price": 25.94
+      },
+      {
+        "item": "Indian Special 3",
+        "price": 6.25
+      },
+      {
+        "item": "Indian Special 4",
+        "price": 25.57
+      },
+      {
+        "item": "Indian Special 5",
+        "price": 29.35
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 26,
+      "11:30": 12,
+      "12:00": 35,
+      "12:30": 40,
+      "13:00": 5,
+      "13:30": 8,
+      "14:00": 0,
+      "14:30": 25,
+      "15:00": 43,
+      "15:30": 26,
+      "16:00": 20,
+      "16:30": 0,
+      "17:00": 13,
+      "17:30": 0,
+      "18:00": 45,
+      "18:30": 0,
+      "19:00": 43,
+      "19:30": 33,
+      "20:00": 39,
+      "20:30": 6,
+      "21:00": 12,
+      "21:30": 7
+    },
+    "summary": "Spice Route is a Indian restaurant located at 101 Main St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Viva Vegan",
+    "cuisine": "Vegan",
+    "address": "3352 Bridge St, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Vegan Special 1",
+        "price": 22.21
+      },
+      {
+        "item": "Vegan Special 2",
+        "price": 9.56
+      },
+      {
+        "item": "Vegan Special 3",
+        "price": 16.89
+      },
+      {
+        "item": "Vegan Special 4",
+        "price": 28.07
+      },
+      {
+        "item": "Vegan Special 5",
+        "price": 20.69
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 1,
+      "11:30": 17,
+      "12:00": 28,
+      "12:30": 7,
+      "13:00": 16,
+      "13:30": 8,
+      "14:00": 41,
+      "14:30": 33,
+      "15:00": 41,
+      "15:30": 41,
+      "16:00": 22,
+      "16:30": 7,
+      "17:00": 9,
+      "17:30": 17,
+      "18:00": 1,
+      "18:30": 2,
+      "19:00": 2,
+      "19:30": 13,
+      "20:00": 43,
+      "20:30": 16,
+      "21:00": 35,
+      "21:30": 20
+    },
+    "summary": "Viva Vegan is a Vegan restaurant located at 3352 Bridge St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Mediterraneo",
+    "cuisine": "Mediterranean",
+    "address": "6111 University Dr, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Mediterranean Special 1",
+        "price": 26.16
+      },
+      {
+        "item": "Mediterranean Special 2",
+        "price": 29.03
+      },
+      {
+        "item": "Mediterranean Special 3",
+        "price": 20.19
+      },
+      {
+        "item": "Mediterranean Special 4",
+        "price": 17.36
+      },
+      {
+        "item": "Mediterranean Special 5",
+        "price": 21.1
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 29,
+      "11:30": 40,
+      "12:00": 27,
+      "12:30": 23,
+      "13:00": 34,
+      "13:30": 11,
+      "14:00": 13,
+      "14:30": 24,
+      "15:00": 37,
+      "15:30": 18,
+      "16:00": 0,
+      "16:30": 8,
+      "17:00": 9,
+      "17:30": 17,
+      "18:00": 21,
+      "18:30": 21,
+      "19:00": 23,
+      "19:30": 45,
+      "20:00": 5,
+      "20:30": 21,
+      "21:00": 39,
+      "21:30": 2
+    },
+    "summary": "Mediterraneo is a Mediterranean restaurant located at 6111 University Dr, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Curry Corner",
+    "cuisine": "Indian",
+    "address": "775 Bridge St, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Indian Special 1",
+        "price": 8.74
+      },
+      {
+        "item": "Indian Special 2",
+        "price": 19.59
+      },
+      {
+        "item": "Indian Special 3",
+        "price": 14.02
+      },
+      {
+        "item": "Indian Special 4",
+        "price": 29.73
+      },
+      {
+        "item": "Indian Special 5",
+        "price": 8.24
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 7,
+      "11:30": 30,
+      "12:00": 15,
+      "12:30": 3,
+      "13:00": 19,
+      "13:30": 11,
+      "14:00": 33,
+      "14:30": 4,
+      "15:00": 19,
+      "15:30": 25,
+      "16:00": 21,
+      "16:30": 19,
+      "17:00": 26,
+      "17:30": 6,
+      "18:00": 6,
+      "18:30": 35,
+      "19:00": 30,
+      "19:30": 30,
+      "20:00": 21,
+      "20:30": 21,
+      "21:00": 7,
+      "21:30": 30
+    },
+    "summary": "Curry Corner is a Indian restaurant located at 775 Bridge St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Dragon's Wok",
+    "cuisine": "Chinese",
+    "address": "2000 West 7th St, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Chinese Special 1",
+        "price": 5.95
+      },
+      {
+        "item": "Chinese Special 2",
+        "price": 13.38
+      },
+      {
+        "item": "Chinese Special 3",
+        "price": 22.18
+      },
+      {
+        "item": "Chinese Special 4",
+        "price": 8.89
+      },
+      {
+        "item": "Chinese Special 5",
+        "price": 9.16
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 36,
+      "11:30": 24,
+      "12:00": 40,
+      "12:30": 5,
+      "13:00": 4,
+      "13:30": 5,
+      "14:00": 12,
+      "14:30": 14,
+      "15:00": 3,
+      "15:30": 24,
+      "16:00": 0,
+      "16:30": 6,
+      "17:00": 25,
+      "17:30": 35,
+      "18:00": 33,
+      "18:30": 18,
+      "19:00": 28,
+      "19:30": 31,
+      "20:00": 37,
+      "20:30": 45,
+      "21:00": 43,
+      "21:30": 13
+    },
+    "summary": "Dragon's Wok is a Chinese restaurant located at 2000 West 7th St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Pizza Palace",
+    "cuisine": "Italian",
+    "address": "7031 Commerce St, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Italian Special 1",
+        "price": 10.5
+      },
+      {
+        "item": "Italian Special 2",
+        "price": 29.98
+      },
+      {
+        "item": "Italian Special 3",
+        "price": 19.63
+      },
+      {
+        "item": "Italian Special 4",
+        "price": 9.16
+      },
+      {
+        "item": "Italian Special 5",
+        "price": 9.8
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 7,
+      "11:30": 4,
+      "12:00": 44,
+      "12:30": 1,
+      "13:00": 33,
+      "13:30": 28,
+      "14:00": 43,
+      "14:30": 12,
+      "15:00": 7,
+      "15:30": 31,
+      "16:00": 25,
+      "16:30": 16,
+      "17:00": 13,
+      "17:30": 41,
+      "18:00": 2,
+      "18:30": 13,
+      "19:00": 39,
+      "19:30": 9,
+      "20:00": 6,
+      "20:30": 12,
+      "21:00": 29,
+      "21:30": 24
+    },
+    "summary": "Pizza Palace is a Italian restaurant located at 7031 Commerce St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Sunrise Diner",
+    "cuisine": "American",
+    "address": "6025 Hemphill St, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "American Special 1",
+        "price": 7.62
+      },
+      {
+        "item": "American Special 2",
+        "price": 19.91
+      },
+      {
+        "item": "American Special 3",
+        "price": 17.2
+      },
+      {
+        "item": "American Special 4",
+        "price": 19.1
+      },
+      {
+        "item": "American Special 5",
+        "price": 20.96
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 27,
+      "11:30": 33,
+      "12:00": 31,
+      "12:30": 43,
+      "13:00": 20,
+      "13:30": 31,
+      "14:00": 31,
+      "14:30": 40,
+      "15:00": 42,
+      "15:30": 12,
+      "16:00": 34,
+      "16:30": 39,
+      "17:00": 14,
+      "17:30": 0,
+      "18:00": 21,
+      "18:30": 45,
+      "19:00": 20,
+      "19:30": 20,
+      "20:00": 2,
+      "20:30": 33,
+      "21:00": 9,
+      "21:30": 16
+    },
+    "summary": "Sunrise Diner is a American restaurant located at 6025 Hemphill St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Seafood Shack",
+    "cuisine": "Seafood",
+    "address": "9972 Lancaster Ave, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Seafood Special 1",
+        "price": 19.57
+      },
+      {
+        "item": "Seafood Special 2",
+        "price": 22.95
+      },
+      {
+        "item": "Seafood Special 3",
+        "price": 25.18
+      },
+      {
+        "item": "Seafood Special 4",
+        "price": 6.66
+      },
+      {
+        "item": "Seafood Special 5",
+        "price": 7.12
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 2,
+      "11:30": 4,
+      "12:00": 14,
+      "12:30": 8,
+      "13:00": 2,
+      "13:30": 19,
+      "14:00": 0,
+      "14:30": 28,
+      "15:00": 21,
+      "15:30": 10,
+      "16:00": 9,
+      "16:30": 41,
+      "17:00": 29,
+      "17:30": 23,
+      "18:00": 32,
+      "18:30": 24,
+      "19:00": 33,
+      "19:30": 32,
+      "20:00": 2,
+      "20:30": 36,
+      "21:00": 5,
+      "21:30": 43
+    },
+    "summary": "Seafood Shack is a Seafood restaurant located at 9972 Lancaster Ave, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Coffee Corner",
+    "cuisine": "Cafe",
+    "address": "8586 University Dr, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Cafe Special 1",
+        "price": 23.67
+      },
+      {
+        "item": "Cafe Special 2",
+        "price": 27.64
+      },
+      {
+        "item": "Cafe Special 3",
+        "price": 10.15
+      },
+      {
+        "item": "Cafe Special 4",
+        "price": 18.39
+      },
+      {
+        "item": "Cafe Special 5",
+        "price": 19.97
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 30,
+      "11:30": 24,
+      "12:00": 38,
+      "12:30": 37,
+      "13:00": 14,
+      "13:30": 1,
+      "14:00": 42,
+      "14:30": 0,
+      "15:00": 11,
+      "15:30": 19,
+      "16:00": 32,
+      "16:30": 36,
+      "17:00": 16,
+      "17:30": 21,
+      "18:00": 4,
+      "18:30": 31,
+      "19:00": 16,
+      "19:30": 19,
+      "20:00": 26,
+      "20:30": 24,
+      "21:00": 24,
+      "21:30": 3
+    },
+    "summary": "Coffee Corner is a Cafe restaurant located at 8586 University Dr, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Bakery Bliss",
+    "cuisine": "Bakery",
+    "address": "2783 Lancaster Ave, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Bakery Special 1",
+        "price": 12.18
+      },
+      {
+        "item": "Bakery Special 2",
+        "price": 25.75
+      },
+      {
+        "item": "Bakery Special 3",
+        "price": 6.39
+      },
+      {
+        "item": "Bakery Special 4",
+        "price": 5.9
+      },
+      {
+        "item": "Bakery Special 5",
+        "price": 15.45
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 31,
+      "11:30": 38,
+      "12:00": 45,
+      "12:30": 5,
+      "13:00": 43,
+      "13:30": 44,
+      "14:00": 9,
+      "14:30": 22,
+      "15:00": 26,
+      "15:30": 2,
+      "16:00": 39,
+      "16:30": 29,
+      "17:00": 24,
+      "17:30": 29,
+      "18:00": 3,
+      "18:30": 6,
+      "19:00": 30,
+      "19:30": 9,
+      "20:00": 1,
+      "20:30": 2,
+      "21:00": 38,
+      "21:30": 39
+    },
+    "summary": "Bakery Bliss is a Bakery restaurant located at 2783 Lancaster Ave, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Steakhouse 1849",
+    "cuisine": "Steakhouse",
+    "address": "2274 Everman Pkwy, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Steakhouse Special 1",
+        "price": 22.5
+      },
+      {
+        "item": "Steakhouse Special 2",
+        "price": 21.22
+      },
+      {
+        "item": "Steakhouse Special 3",
+        "price": 9.87
+      },
+      {
+        "item": "Steakhouse Special 4",
+        "price": 24.59
+      },
+      {
+        "item": "Steakhouse Special 5",
+        "price": 24.44
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 7,
+      "11:30": 3,
+      "12:00": 39,
+      "12:30": 44,
+      "13:00": 29,
+      "13:30": 39,
+      "14:00": 40,
+      "14:30": 21,
+      "15:00": 41,
+      "15:30": 7,
+      "16:00": 43,
+      "16:30": 45,
+      "17:00": 39,
+      "17:30": 18,
+      "18:00": 8,
+      "18:30": 24,
+      "19:00": 18,
+      "19:30": 43,
+      "20:00": 7,
+      "20:30": 33,
+      "21:00": 12,
+      "21:30": 2
+    },
+    "summary": "Steakhouse 1849 is a Steakhouse restaurant located at 2274 Everman Pkwy, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Pho Delight",
+    "cuisine": "Vietnamese",
+    "address": "6522 West 7th St, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Vietnamese Special 1",
+        "price": 23.92
+      },
+      {
+        "item": "Vietnamese Special 2",
+        "price": 16.39
+      },
+      {
+        "item": "Vietnamese Special 3",
+        "price": 24.74
+      },
+      {
+        "item": "Vietnamese Special 4",
+        "price": 6.88
+      },
+      {
+        "item": "Vietnamese Special 5",
+        "price": 6.12
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 2,
+      "11:30": 31,
+      "12:00": 16,
+      "12:30": 1,
+      "13:00": 33,
+      "13:30": 42,
+      "14:00": 36,
+      "14:30": 36,
+      "15:00": 13,
+      "15:30": 14,
+      "16:00": 5,
+      "16:30": 40,
+      "17:00": 32,
+      "17:30": 44,
+      "18:00": 33,
+      "18:30": 26,
+      "19:00": 32,
+      "19:30": 19,
+      "20:00": 7,
+      "20:30": 9,
+      "21:00": 27,
+      "21:30": 36
+    },
+    "summary": "Pho Delight is a Vietnamese restaurant located at 6522 West 7th St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "BBQ Barn",
+    "cuisine": "Barbecue",
+    "address": "7014 Commerce St, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Barbecue Special 1",
+        "price": 15.39
+      },
+      {
+        "item": "Barbecue Special 2",
+        "price": 7.48
+      },
+      {
+        "item": "Barbecue Special 3",
+        "price": 24.35
+      },
+      {
+        "item": "Barbecue Special 4",
+        "price": 23.36
+      },
+      {
+        "item": "Barbecue Special 5",
+        "price": 5.77
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 28,
+      "11:30": 27,
+      "12:00": 43,
+      "12:30": 26,
+      "13:00": 1,
+      "13:30": 31,
+      "14:00": 20,
+      "14:30": 16,
+      "15:00": 5,
+      "15:30": 22,
+      "16:00": 4,
+      "16:30": 7,
+      "17:00": 22,
+      "17:30": 44,
+      "18:00": 1,
+      "18:30": 22,
+      "19:00": 22,
+      "19:30": 11,
+      "20:00": 0,
+      "20:30": 14,
+      "21:00": 23,
+      "21:30": 4
+    },
+    "summary": "BBQ Barn is a Barbecue restaurant located at 7014 Commerce St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Healthy Harvest",
+    "cuisine": "Healthy",
+    "address": "9874 Lancaster Ave, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Healthy Special 1",
+        "price": 5.08
+      },
+      {
+        "item": "Healthy Special 2",
+        "price": 21.48
+      },
+      {
+        "item": "Healthy Special 3",
+        "price": 23.3
+      },
+      {
+        "item": "Healthy Special 4",
+        "price": 27.52
+      },
+      {
+        "item": "Healthy Special 5",
+        "price": 23.7
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 18,
+      "11:30": 23,
+      "12:00": 44,
+      "12:30": 1,
+      "13:00": 38,
+      "13:30": 14,
+      "14:00": 9,
+      "14:30": 11,
+      "15:00": 29,
+      "15:30": 7,
+      "16:00": 30,
+      "16:30": 22,
+      "17:00": 45,
+      "17:30": 16,
+      "18:00": 8,
+      "18:30": 1,
+      "19:00": 13,
+      "19:30": 23,
+      "20:00": 21,
+      "20:30": 30,
+      "21:00": 18,
+      "21:30": 18
+    },
+    "summary": "Healthy Harvest is a Healthy restaurant located at 9874 Lancaster Ave, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Smoothie Station",
+    "cuisine": "Smoothie",
+    "address": "9163 Everman Pkwy, Fort Worth, TX",
+    "price_range": "$",
+    "menu": [
+      {
+        "item": "Smoothie Special 1",
+        "price": 19.83
+      },
+      {
+        "item": "Smoothie Special 2",
+        "price": 7.02
+      },
+      {
+        "item": "Smoothie Special 3",
+        "price": 18.33
+      },
+      {
+        "item": "Smoothie Special 4",
+        "price": 12.69
+      },
+      {
+        "item": "Smoothie Special 5",
+        "price": 14.41
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 9,
+      "11:30": 8,
+      "12:00": 14,
+      "12:30": 20,
+      "13:00": 32,
+      "13:30": 15,
+      "14:00": 15,
+      "14:30": 11,
+      "15:00": 18,
+      "15:30": 23,
+      "16:00": 26,
+      "16:30": 42,
+      "17:00": 2,
+      "17:30": 8,
+      "18:00": 38,
+      "18:30": 1,
+      "19:00": 25,
+      "19:30": 4,
+      "20:00": 44,
+      "20:30": 4,
+      "21:00": 8,
+      "21:30": 26
+    },
+    "summary": "Smoothie Station is a Smoothie restaurant located at 9163 Everman Pkwy, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  },
+  {
+    "name": "Sweet Treats",
+    "cuisine": "Dessert",
+    "address": "5005 Hemphill St, Fort Worth, TX",
+    "price_range": "$$",
+    "menu": [
+      {
+        "item": "Dessert Special 1",
+        "price": 23.52
+      },
+      {
+        "item": "Dessert Special 2",
+        "price": 8.56
+      },
+      {
+        "item": "Dessert Special 3",
+        "price": 15.55
+      },
+      {
+        "item": "Dessert Special 4",
+        "price": 20.92
+      },
+      {
+        "item": "Dessert Special 5",
+        "price": 7.11
+      }
+    ],
+    "average_wait_times": {
+      "11:00": 28,
+      "11:30": 40,
+      "12:00": 23,
+      "12:30": 40,
+      "13:00": 33,
+      "13:30": 3,
+      "14:00": 24,
+      "14:30": 26,
+      "15:00": 0,
+      "15:30": 26,
+      "16:00": 20,
+      "16:30": 28,
+      "17:00": 13,
+      "17:30": 23,
+      "18:00": 18,
+      "18:30": 30,
+      "19:00": 5,
+      "19:30": 11,
+      "20:00": 6,
+      "20:30": 17,
+      "21:00": 7,
+      "21:30": 35
+    },
+    "summary": "Sweet Treats is a Dessert restaurant located at 5005 Hemphill St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+  }
+]
