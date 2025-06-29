@@ -1,8 +1,22 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+import ollama
+import chromadb
+import os
 
-# Create the FastAPI app instance
+# Get the absolute path to the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# --- Constants ---
+# Use absolute paths to ensure the script can be run from anywhere
+CHROMA_PATH = os.path.join(SCRIPT_DIR, "chroma_db")
+EMBEDDING_MODEL = "nomic-embed-text"
+LLM_MODEL = "llama3"
+COLLECTION_NAME = "restaurants"
+
+
+# --- FastAPI App Initialization ---
 app = FastAPI()
 
 # Define the origins that are allowed to access the API
@@ -21,6 +35,19 @@ app.add_middleware(
     allow_headers=["*"], # Allow all headers
 )
 
+# --- ChromaDB and Ollama Client Initialization ---
+# Initialize clients once when the server starts
+try:
+    chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
+    restaurant_collection = chroma_client.get_collection(COLLECTION_NAME)
+    print("Successfully connected to ChromaDB and loaded collection.")
+except Exception as e:
+    print(f"Error connecting to ChromaDB or getting collection: {e}")
+    print("Please ensure you have run ingest.py successfully before starting the server.")
+    # Exit if we can't connect to the database, as the API is useless without it.
+    exit()
+
+
 # Define the data model for the request body
 class Query(BaseModel):
     text: str
@@ -28,10 +55,51 @@ class Query(BaseModel):
 @app.post("/api/ask")
 async def ask_question(query: Query):
     """
-    Receives a question from the user, processes it,
+    Receives a question, retrieves relevant context from ChromaDB,
     and returns an AI-generated answer.
     """
-    # For now, we'll just echo the question back
-    # This is where the RAG will go 
     print(f"Received query: {query.text}")
-    return {"answer": f"You asked: '{query.text}'. The AI response will go here."} 
+
+    # 1. Generate an embedding for the user's query
+    query_embedding = ollama.embeddings(
+        model=EMBEDDING_MODEL,
+        prompt=query.text
+    )['embedding']
+
+    # 2. Retrieve the most relevant documents from ChromaDB
+    results = restaurant_collection.query(
+        query_embeddings=[query_embedding],
+        n_results=3  # Get the top 3 most relevant results
+    )
+    context_documents = results['documents'][0]
+    context = "\\n\\n".join(context_documents)
+
+    # 3. Augment the prompt with the retrieved context
+    prompt_template = (
+        "You are an expert on restaurants in Fort Worth, Texas. Your goal is to provide helpful and accurate recommendations to users.\\n\\n"
+        "Using ONLY the information from the context provided below, answer the user's question.\\n"
+        "Do not use any external knowledge. If the context does not contain the answer, state that you don't have enough information to answer.\\n\\n"
+        f"Context:\\n{context}\\n\\n"
+        f"User's Question: {query.text}"
+    )
+
+    print("--- Augmented Prompt ---")
+    print(prompt_template)
+    print("------------------------")
+
+    # 4. Generate the final response using the LLM
+    try:
+        response = ollama.chat(
+            model=LLM_MODEL,
+            messages=[
+                {'role': 'system', 'content': 'You are a helpful restaurant assistant.'},
+                {'role': 'user', 'content': prompt_template}
+            ]
+        )
+        final_answer = response['message']['content']
+    except Exception as e:
+        print(f"Error calling Ollama chat API: {e}")
+        final_answer = "Sorry, I'm having trouble connecting to the AI model right now. Please try again later."
+
+    print(f"Generated answer: {final_answer}")
+    return {"answer": final_answer} 
