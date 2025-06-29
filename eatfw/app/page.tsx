@@ -80,29 +80,50 @@ export default function Home() {
   };
 
   // When the user submits, a message is appended to the messages array -> API is called
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!inputValue.trim()) return;
 
+    const userMessage = inputValue;
     const newMessages: Message[] = [
       ...messages,
-      { sender: "user", text: inputValue },
+      { sender: "user", text: userMessage },
     ];
     setMessages(newMessages);
     setInputValue("");
     setIsLoading(true);
 
-    // Simulate API Call
-    setTimeout(() => {
+    try {
+      const response = await fetch("http://localhost:8000/api/ask", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text: userMessage }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "ai", text: data.answer },
+      ]);
+    } catch (error) {
+      console.error("Failed to fetch from the API:", error);
       setMessages((prevMessages) => [
         ...prevMessages,
         {
           sender: "ai",
-          text: "This is a simulated AI response. The real one will be much smarter!",
+          text: "Sorry, I'm currently enjoying the art at the Kimbell right now. Please try again later.",
         },
       ]);
+    } finally {
       setIsLoading(false);
-    }, 2000);
+    }
   };
 
   return (

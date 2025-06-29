@@ -1,2 +1,4 @@
 fastapi[standard]
-python-multipart 
+python-multipart
+chromadb
+ollama 

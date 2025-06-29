@@ -12,6 +12,7 @@ origins = [
 ]
 
 # Add CORS middleware to the application
+# Allows for the frontend to connect to the backend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -31,6 +32,6 @@ async def ask_question(query: Query):
     and returns an AI-generated answer.
     """
     # For now, we'll just echo the question back
-    # In the future, this is where the RAG logic will go.
+    # This is where the RAG will go 
     print(f"Received query: {query.text}")
     return {"answer": f"You asked: '{query.text}'. The AI response will go here."} 
