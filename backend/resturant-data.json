@@ -1,901 +1,1542 @@
 [
   {
-    "address": "1422 Main St, Fort Worth, TX",
-    "price_range": "$$$",
-    "menu": [
-      {
-        "item": "Chinese Special 1",
-        "price": 9.81
-      },
-      {
-        "item": "Chinese Special 2",
-        "price": 13.36
-      },
-      {
-        "item": "Chinese Special 3",
-        "price": 10.99
-      },
-      {
-        "item": "Chinese Special 4",
-        "price": 20.93
-      },
-      {
-        "item": "Chinese Special 5",
-        "price": 14.47
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 43,
-      "11:30": 36,
-      "12:00": 26,
-      "12:30": 2,
-      "13:00": 25,
-      "13:30": 44,
-      "14:00": 36,
-      "14:30": 26,
-      "15:00": 42,
-      "15:30": 45,
-      "16:00": 2,
-      "16:30": 10,
-      "17:00": 28,
-      "17:30": 4,
-      "18:00": 16,
-      "18:30": 44,
-      "19:00": 10,
-      "19:30": 28,
-      "20:00": 33,
-      "20:30": 31,
-      "21:00": 35,
-      "21:30": 38
-    },
-    "summary": "Noodle House is a Chinese restaurant located at 1422 Main St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Spice Route",
-    "cuisine": "Indian",
-    "address": "101 Main St, Fort Worth, TX",
-    "price_range": "$$",
-    "menu": [
-      {
-        "item": "Indian Special 1",
-        "price": 13.15
-      },
-      {
-        "item": "Indian Special 2",
-        "price": 25.94
-      },
-      {
-        "item": "Indian Special 3",
-        "price": 6.25
-      },
-      {
-        "item": "Indian Special 4",
-        "price": 25.57
-      },
-      {
-        "item": "Indian Special 5",
-        "price": 29.35
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 26,
-      "11:30": 12,
-      "12:00": 35,
-      "12:30": 40,
-      "13:00": 5,
-      "13:30": 8,
-      "14:00": 0,
-      "14:30": 25,
-      "15:00": 43,
-      "15:30": 26,
-      "16:00": 20,
-      "16:30": 0,
-      "17:00": 13,
-      "17:30": 0,
-      "18:00": 45,
-      "18:30": 0,
-      "19:00": 43,
-      "19:30": 33,
-      "20:00": 39,
-      "20:30": 6,
-      "21:00": 12,
-      "21:30": 7
-    },
-    "summary": "Spice Route is a Indian restaurant located at 101 Main St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Viva Vegan",
-    "cuisine": "Vegan",
-    "address": "3352 Bridge St, Fort Worth, TX",
-    "price_range": "$$",
-    "menu": [
-      {
-        "item": "Vegan Special 1",
-        "price": 22.21
-      },
-      {
-        "item": "Vegan Special 2",
-        "price": 9.56
-      },
-      {
-        "item": "Vegan Special 3",
-        "price": 16.89
-      },
-      {
-        "item": "Vegan Special 4",
-        "price": 28.07
-      },
-      {
-        "item": "Vegan Special 5",
-        "price": 20.69
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 1,
-      "11:30": 17,
-      "12:00": 28,
-      "12:30": 7,
-      "13:00": 16,
-      "13:30": 8,
-      "14:00": 41,
-      "14:30": 33,
-      "15:00": 41,
-      "15:30": 41,
-      "16:00": 22,
-      "16:30": 7,
-      "17:00": 9,
-      "17:30": 17,
-      "18:00": 1,
-      "18:30": 2,
-      "19:00": 2,
-      "19:30": 13,
-      "20:00": 43,
-      "20:30": 16,
-      "21:00": 35,
-      "21:30": 20
-    },
-    "summary": "Viva Vegan is a Vegan restaurant located at 3352 Bridge St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Mediterraneo",
-    "cuisine": "Mediterranean",
-    "address": "6111 University Dr, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Mediterranean Special 1",
-        "price": 26.16
-      },
-      {
-        "item": "Mediterranean Special 2",
-        "price": 29.03
-      },
-      {
-        "item": "Mediterranean Special 3",
-        "price": 20.19
-      },
-      {
-        "item": "Mediterranean Special 4",
-        "price": 17.36
-      },
-      {
-        "item": "Mediterranean Special 5",
-        "price": 21.1
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 29,
-      "11:30": 40,
-      "12:00": 27,
-      "12:30": 23,
-      "13:00": 34,
-      "13:30": 11,
-      "14:00": 13,
-      "14:30": 24,
-      "15:00": 37,
-      "15:30": 18,
-      "16:00": 0,
-      "16:30": 8,
-      "17:00": 9,
-      "17:30": 17,
-      "18:00": 21,
-      "18:30": 21,
-      "19:00": 23,
-      "19:30": 45,
-      "20:00": 5,
-      "20:30": 21,
-      "21:00": 39,
-      "21:30": 2
-    },
-    "summary": "Mediterraneo is a Mediterranean restaurant located at 6111 University Dr, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Curry Corner",
-    "cuisine": "Indian",
-    "address": "775 Bridge St, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Indian Special 1",
-        "price": 8.74
-      },
-      {
-        "item": "Indian Special 2",
-        "price": 19.59
-      },
-      {
-        "item": "Indian Special 3",
-        "price": 14.02
-      },
-      {
-        "item": "Indian Special 4",
-        "price": 29.73
-      },
-      {
-        "item": "Indian Special 5",
-        "price": 8.24
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 7,
-      "11:30": 30,
-      "12:00": 15,
-      "12:30": 3,
-      "13:00": 19,
-      "13:30": 11,
-      "14:00": 33,
-      "14:30": 4,
-      "15:00": 19,
-      "15:30": 25,
-      "16:00": 21,
-      "16:30": 19,
-      "17:00": 26,
-      "17:30": 6,
-      "18:00": 6,
-      "18:30": 35,
-      "19:00": 30,
-      "19:30": 30,
-      "20:00": 21,
-      "20:30": 21,
-      "21:00": 7,
-      "21:30": 30
-    },
-    "summary": "Curry Corner is a Indian restaurant located at 775 Bridge St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Dragon's Wok",
-    "cuisine": "Chinese",
-    "address": "2000 West 7th St, Fort Worth, TX",
-    "price_range": "$$",
-    "menu": [
-      {
-        "item": "Chinese Special 1",
-        "price": 5.95
-      },
-      {
-        "item": "Chinese Special 2",
-        "price": 13.38
-      },
-      {
-        "item": "Chinese Special 3",
-        "price": 22.18
-      },
-      {
-        "item": "Chinese Special 4",
-        "price": 8.89
-      },
-      {
-        "item": "Chinese Special 5",
-        "price": 9.16
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 36,
-      "11:30": 24,
-      "12:00": 40,
-      "12:30": 5,
-      "13:00": 4,
-      "13:30": 5,
-      "14:00": 12,
-      "14:30": 14,
-      "15:00": 3,
-      "15:30": 24,
-      "16:00": 0,
-      "16:30": 6,
-      "17:00": 25,
-      "17:30": 35,
-      "18:00": 33,
-      "18:30": 18,
-      "19:00": 28,
-      "19:30": 31,
-      "20:00": 37,
-      "20:30": 45,
-      "21:00": 43,
-      "21:30": 13
-    },
-    "summary": "Dragon's Wok is a Chinese restaurant located at 2000 West 7th St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Pizza Palace",
-    "cuisine": "Italian",
-    "address": "7031 Commerce St, Fort Worth, TX",
-    "price_range": "$$",
-    "menu": [
-      {
-        "item": "Italian Special 1",
-        "price": 10.5
-      },
-      {
-        "item": "Italian Special 2",
-        "price": 29.98
-      },
-      {
-        "item": "Italian Special 3",
-        "price": 19.63
-      },
-      {
-        "item": "Italian Special 4",
-        "price": 9.16
-      },
-      {
-        "item": "Italian Special 5",
-        "price": 9.8
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 7,
-      "11:30": 4,
-      "12:00": 44,
-      "12:30": 1,
-      "13:00": 33,
-      "13:30": 28,
-      "14:00": 43,
-      "14:30": 12,
-      "15:00": 7,
-      "15:30": 31,
-      "16:00": 25,
-      "16:30": 16,
-      "17:00": 13,
-      "17:30": 41,
-      "18:00": 2,
-      "18:30": 13,
-      "19:00": 39,
-      "19:30": 9,
-      "20:00": 6,
-      "20:30": 12,
-      "21:00": 29,
-      "21:30": 24
-    },
-    "summary": "Pizza Palace is a Italian restaurant located at 7031 Commerce St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Sunrise Diner",
-    "cuisine": "American",
-    "address": "6025 Hemphill St, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "American Special 1",
-        "price": 7.62
-      },
-      {
-        "item": "American Special 2",
-        "price": 19.91
-      },
-      {
-        "item": "American Special 3",
-        "price": 17.2
-      },
-      {
-        "item": "American Special 4",
-        "price": 19.1
-      },
-      {
-        "item": "American Special 5",
-        "price": 20.96
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 27,
-      "11:30": 33,
-      "12:00": 31,
-      "12:30": 43,
-      "13:00": 20,
-      "13:30": 31,
-      "14:00": 31,
-      "14:30": 40,
-      "15:00": 42,
-      "15:30": 12,
-      "16:00": 34,
-      "16:30": 39,
-      "17:00": 14,
-      "17:30": 0,
-      "18:00": 21,
-      "18:30": 45,
-      "19:00": 20,
-      "19:30": 20,
-      "20:00": 2,
-      "20:30": 33,
-      "21:00": 9,
-      "21:30": 16
-    },
-    "summary": "Sunrise Diner is a American restaurant located at 6025 Hemphill St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Seafood Shack",
-    "cuisine": "Seafood",
-    "address": "9972 Lancaster Ave, Fort Worth, TX",
-    "price_range": "$$",
-    "menu": [
-      {
-        "item": "Seafood Special 1",
-        "price": 19.57
-      },
-      {
-        "item": "Seafood Special 2",
-        "price": 22.95
-      },
-      {
-        "item": "Seafood Special 3",
-        "price": 25.18
-      },
-      {
-        "item": "Seafood Special 4",
-        "price": 6.66
-      },
-      {
-        "item": "Seafood Special 5",
-        "price": 7.12
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 2,
-      "11:30": 4,
-      "12:00": 14,
-      "12:30": 8,
-      "13:00": 2,
-      "13:30": 19,
-      "14:00": 0,
-      "14:30": 28,
-      "15:00": 21,
-      "15:30": 10,
-      "16:00": 9,
-      "16:30": 41,
-      "17:00": 29,
-      "17:30": 23,
-      "18:00": 32,
-      "18:30": 24,
-      "19:00": 33,
-      "19:30": 32,
-      "20:00": 2,
-      "20:30": 36,
-      "21:00": 5,
-      "21:30": 43
-    },
-    "summary": "Seafood Shack is a Seafood restaurant located at 9972 Lancaster Ave, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Coffee Corner",
-    "cuisine": "Cafe",
-    "address": "8586 University Dr, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Cafe Special 1",
-        "price": 23.67
-      },
-      {
-        "item": "Cafe Special 2",
-        "price": 27.64
-      },
-      {
-        "item": "Cafe Special 3",
-        "price": 10.15
-      },
-      {
-        "item": "Cafe Special 4",
-        "price": 18.39
-      },
-      {
-        "item": "Cafe Special 5",
-        "price": 19.97
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 30,
-      "11:30": 24,
-      "12:00": 38,
-      "12:30": 37,
-      "13:00": 14,
-      "13:30": 1,
-      "14:00": 42,
-      "14:30": 0,
-      "15:00": 11,
-      "15:30": 19,
-      "16:00": 32,
-      "16:30": 36,
-      "17:00": 16,
-      "17:30": 21,
-      "18:00": 4,
-      "18:30": 31,
-      "19:00": 16,
-      "19:30": 19,
-      "20:00": 26,
-      "20:30": 24,
-      "21:00": 24,
-      "21:30": 3
-    },
-    "summary": "Coffee Corner is a Cafe restaurant located at 8586 University Dr, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Bakery Bliss",
-    "cuisine": "Bakery",
-    "address": "2783 Lancaster Ave, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Bakery Special 1",
-        "price": 12.18
-      },
-      {
-        "item": "Bakery Special 2",
-        "price": 25.75
-      },
-      {
-        "item": "Bakery Special 3",
-        "price": 6.39
-      },
-      {
-        "item": "Bakery Special 4",
-        "price": 5.9
-      },
-      {
-        "item": "Bakery Special 5",
-        "price": 15.45
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 31,
-      "11:30": 38,
-      "12:00": 45,
-      "12:30": 5,
-      "13:00": 43,
-      "13:30": 44,
-      "14:00": 9,
-      "14:30": 22,
-      "15:00": 26,
-      "15:30": 2,
-      "16:00": 39,
-      "16:30": 29,
-      "17:00": 24,
-      "17:30": 29,
-      "18:00": 3,
-      "18:30": 6,
-      "19:00": 30,
-      "19:30": 9,
-      "20:00": 1,
-      "20:30": 2,
-      "21:00": 38,
-      "21:30": 39
-    },
-    "summary": "Bakery Bliss is a Bakery restaurant located at 2783 Lancaster Ave, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Steakhouse 1849",
-    "cuisine": "Steakhouse",
-    "address": "2274 Everman Pkwy, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Steakhouse Special 1",
-        "price": 22.5
-      },
-      {
-        "item": "Steakhouse Special 2",
-        "price": 21.22
-      },
-      {
-        "item": "Steakhouse Special 3",
-        "price": 9.87
-      },
-      {
-        "item": "Steakhouse Special 4",
-        "price": 24.59
-      },
-      {
-        "item": "Steakhouse Special 5",
-        "price": 24.44
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 7,
-      "11:30": 3,
-      "12:00": 39,
-      "12:30": 44,
-      "13:00": 29,
-      "13:30": 39,
-      "14:00": 40,
-      "14:30": 21,
-      "15:00": 41,
-      "15:30": 7,
-      "16:00": 43,
-      "16:30": 45,
-      "17:00": 39,
-      "17:30": 18,
-      "18:00": 8,
-      "18:30": 24,
-      "19:00": 18,
-      "19:30": 43,
-      "20:00": 7,
-      "20:30": 33,
-      "21:00": 12,
-      "21:30": 2
-    },
-    "summary": "Steakhouse 1849 is a Steakhouse restaurant located at 2274 Everman Pkwy, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Pho Delight",
-    "cuisine": "Vietnamese",
-    "address": "6522 West 7th St, Fort Worth, TX",
-    "price_range": "$$",
-    "menu": [
-      {
-        "item": "Vietnamese Special 1",
-        "price": 23.92
-      },
-      {
-        "item": "Vietnamese Special 2",
-        "price": 16.39
-      },
-      {
-        "item": "Vietnamese Special 3",
-        "price": 24.74
-      },
-      {
-        "item": "Vietnamese Special 4",
-        "price": 6.88
-      },
-      {
-        "item": "Vietnamese Special 5",
-        "price": 6.12
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 2,
-      "11:30": 31,
-      "12:00": 16,
-      "12:30": 1,
-      "13:00": 33,
-      "13:30": 42,
-      "14:00": 36,
-      "14:30": 36,
-      "15:00": 13,
-      "15:30": 14,
-      "16:00": 5,
-      "16:30": 40,
-      "17:00": 32,
-      "17:30": 44,
-      "18:00": 33,
-      "18:30": 26,
-      "19:00": 32,
-      "19:30": 19,
-      "20:00": 7,
-      "20:30": 9,
-      "21:00": 27,
-      "21:30": 36
-    },
-    "summary": "Pho Delight is a Vietnamese restaurant located at 6522 West 7th St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "BBQ Barn",
+    "name": "Heim Barbecue & Catering",
     "cuisine": "Barbecue",
-    "address": "7014 Commerce St, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Barbecue Special 1",
-        "price": 15.39
-      },
-      {
-        "item": "Barbecue Special 2",
-        "price": 7.48
-      },
-      {
-        "item": "Barbecue Special 3",
-        "price": 24.35
-      },
-      {
-        "item": "Barbecue Special 4",
-        "price": 23.36
-      },
-      {
-        "item": "Barbecue Special 5",
-        "price": 5.77
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 28,
-      "11:30": 27,
-      "12:00": 43,
-      "12:30": 26,
-      "13:00": 1,
-      "13:30": 31,
-      "14:00": 20,
-      "14:30": 16,
-      "15:00": 5,
-      "15:30": 22,
-      "16:00": 4,
-      "16:30": 7,
-      "17:00": 22,
-      "17:30": 44,
-      "18:00": 1,
-      "18:30": 22,
-      "19:00": 22,
-      "19:30": 11,
-      "20:00": 0,
-      "20:30": 14,
-      "21:00": 23,
-      "21:30": 4
-    },
-    "summary": "BBQ Barn is a Barbecue restaurant located at 7014 Commerce St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Healthy Harvest",
-    "cuisine": "Healthy",
-    "address": "9874 Lancaster Ave, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Healthy Special 1",
-        "price": 5.08
-      },
-      {
-        "item": "Healthy Special 2",
-        "price": 21.48
-      },
-      {
-        "item": "Healthy Special 3",
-        "price": 23.3
-      },
-      {
-        "item": "Healthy Special 4",
-        "price": 27.52
-      },
-      {
-        "item": "Healthy Special 5",
-        "price": 23.7
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 18,
-      "11:30": 23,
-      "12:00": 44,
-      "12:30": 1,
-      "13:00": 38,
-      "13:30": 14,
-      "14:00": 9,
-      "14:30": 11,
-      "15:00": 29,
-      "15:30": 7,
-      "16:00": 30,
-      "16:30": 22,
-      "17:00": 45,
-      "17:30": 16,
-      "18:00": 8,
-      "18:30": 1,
-      "19:00": 13,
-      "19:30": 23,
-      "20:00": 21,
-      "20:30": 30,
-      "21:00": 18,
-      "21:30": 18
-    },
-    "summary": "Healthy Harvest is a Healthy restaurant located at 9874 Lancaster Ave, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Smoothie Station",
-    "cuisine": "Smoothie",
-    "address": "9163 Everman Pkwy, Fort Worth, TX",
-    "price_range": "$",
-    "menu": [
-      {
-        "item": "Smoothie Special 1",
-        "price": 19.83
-      },
-      {
-        "item": "Smoothie Special 2",
-        "price": 7.02
-      },
-      {
-        "item": "Smoothie Special 3",
-        "price": 18.33
-      },
-      {
-        "item": "Smoothie Special 4",
-        "price": 12.69
-      },
-      {
-        "item": "Smoothie Special 5",
-        "price": 14.41
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 9,
-      "11:30": 8,
-      "12:00": 14,
-      "12:30": 20,
-      "13:00": 32,
-      "13:30": 15,
-      "14:00": 15,
-      "14:30": 11,
-      "15:00": 18,
-      "15:30": 23,
-      "16:00": 26,
-      "16:30": 42,
-      "17:00": 2,
-      "17:30": 8,
-      "18:00": 38,
-      "18:30": 1,
-      "19:00": 25,
-      "19:30": 4,
-      "20:00": 44,
-      "20:30": 4,
-      "21:00": 8,
-      "21:30": 26
-    },
-    "summary": "Smoothie Station is a Smoothie restaurant located at 9163 Everman Pkwy, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
-  },
-  {
-    "name": "Sweet Treats",
-    "cuisine": "Dessert",
-    "address": "5005 Hemphill St, Fort Worth, TX",
+    "address": "1109 W Magnolia Ave, Fort Worth, TX 76104",
     "price_range": "$$",
-    "menu": [
-      {
-        "item": "Dessert Special 1",
-        "price": 23.52
-      },
-      {
-        "item": "Dessert Special 2",
-        "price": 8.56
-      },
-      {
-        "item": "Dessert Special 3",
-        "price": 15.55
-      },
-      {
-        "item": "Dessert Special 4",
-        "price": 20.92
-      },
-      {
-        "item": "Dessert Special 5",
-        "price": 7.11
-      }
-    ],
-    "average_wait_times": {
-      "11:00": 28,
-      "11:30": 40,
-      "12:00": 23,
-      "12:30": 40,
-      "13:00": 33,
-      "13:30": 3,
-      "14:00": 24,
-      "14:30": 26,
-      "15:00": 0,
-      "15:30": 26,
-      "16:00": 20,
-      "16:30": 28,
-      "17:00": 13,
-      "17:30": 23,
-      "18:00": 18,
-      "18:30": 30,
-      "19:00": 5,
-      "19:30": 11,
-      "20:00": 6,
-      "20:30": 17,
-      "21:00": 7,
-      "21:30": 35
+    "summary": "Heim Barbecue is famed for its craft barbecue, bacon burnt ends, and laid-back Magnolia Avenue location.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-20:00"
     },
-    "summary": "Sweet Treats is a Dessert restaurant located at 5005 Hemphill St, Fort Worth, TX. It offers authentic flavors with a focus on fresh ingredients and a welcoming atmosphere."
+    "menu": [
+      { "item": "Bacon Burnt Ends", "price": 12.95 },
+      { "item": "Brisket Plate", "price": 18.5 },
+      { "item": "Pulled Pork Sandwich", "price": 11.25 },
+      { "item": "Jalapeño Mac & Cheese", "price": 4.75 },
+      { "item": "Banana Pudding", "price": 5.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best brisket I've ever tasted!" },
+      { "rating": 4, "comment": "Great atmosphere and friendly staff." },
+      { "rating": 5, "comment": "Bacon burnt ends are a must-try." }
+    ]
+  },
+  {
+    "name": "Joe T. Garcia's",
+    "cuisine": "Mexican",
+    "address": "2201 N Commerce St, Fort Worth, TX 76164",
+    "price_range": "$$",
+    "summary": "A Fort Worth institution since 1935 serving Tex-Mex classics in a sprawling hacienda with lush patios.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-22:00"
+    },
+    "menu": [
+      { "item": "Enchilada Dinner", "price": 14.95 },
+      { "item": "Fajita Platter", "price": 19.5 },
+      { "item": "Chiles Rellenos", "price": 13.25 },
+      { "item": "Guacamole Salad", "price": 8.0 },
+      { "item": "Margarita (House)", "price": 9.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "The patio dining experience is unmatched." },
+      { "rating": 4, "comment": "Large portions and authentic flavors." },
+      { "rating": 4, "comment": "Expect a long wait, but it's worth it." }
+    ]
+  },
+  {
+    "name": "Reata Restaurant",
+    "cuisine": "Southwestern",
+    "address": "310 Houston St, Fort Worth, TX 76102",
+    "price_range": "$$$",
+    "summary": "Upscale cowboy cuisine featuring Texas flavors like tenderloin tamales and rattlesnake bites, with rooftop views of Sundance Square.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Tenderloin Tamales", "price": 15.0 },
+      { "item": "Pan-Seared Pepper Crusted Tenderloin", "price": 32.0 },
+      { "item": "Chicken Fried Steak", "price": 24.0 },
+      { "item": "West Texas Relleno", "price": 18.5 },
+      { "item": "Texas Pecan Pie", "price": 8.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Spectacular rooftop views and food." },
+      { "rating": 5, "comment": "Service was top-notch." },
+      { "rating": 4, "comment": "Pricey but worth the splurge." }
+    ]
+  },
+  {
+    "name": "Woodshed Smokehouse",
+    "cuisine": "Barbecue",
+    "address": "3201 Riverfront Dr, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Chef Tim Love's riverside smokehouse offering a rotating selection of smoked meats and global-inspired sides.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Smoked Beef Rib", "price": 28.0 },
+      { "item": "Lamb Brisket Tacos", "price": 14.5 },
+      { "item": "Berkshire Pork Belly", "price": 16.0 },
+      { "item": "Pitmaster Beans", "price": 4.25 },
+      { "item": "Bread Pudding", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Loved the unique cuts and river view." },
+      { "rating": 4, "comment": "Great vibe and live music." },
+      { "rating": 4, "comment": "A little pricey but delicious." }
+    ]
+  },
+  {
+    "name": "Cannon Chinese Kitchen",
+    "cuisine": "Chinese",
+    "address": "304 W Cannon St, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Intimate restored home serving shareable modern Chinese plates and dim sum favorites.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "menu": [
+      { "item": "Soup Dumplings", "price": 10.95 },
+      { "item": "Peking Duck Bao", "price": 12.5 },
+      { "item": "Mapo Tofu", "price": 13.0 },
+      { "item": "Five-Spice Spare Ribs", "price": 16.75 },
+      { "item": "Sesame Green Beans", "price": 7.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Cozy atmosphere and flavorful dishes." },
+      { "rating": 4, "comment": "The bao buns were incredible." },
+      { "rating": 4, "comment": "Great place for small group dining." }
+    ]
+  },
+  {
+    "name": "Rodeo Goat",
+    "cuisine": "Burgers",
+    "address": "2836 Bledsoe St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Creative gourmet burgers and an extensive beer list in a casual Stockyards-adjacent space.",
+    "hours": {
+      "monday": "11:00-23:00",
+      "tuesday": "11:00-23:00",
+      "wednesday": "11:00-23:00",
+      "thursday": "11:00-00:00",
+      "friday": "11:00-00:00",
+      "saturday": "11:00-00:00",
+      "sunday": "11:00-22:00"
+    },
+    "menu": [
+      { "item": "Cowboy Murrin Burger", "price": 13.25 },
+      { "item": "Chaca Oaxaca Burger", "price": 12.75 },
+      { "item": "Hot Toddy Burger", "price": 11.95 },
+      { "item": "Hand-Cut Fries", "price": 4.0 },
+      { "item": "Goat Balls", "price": 7.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "The burger combinations are wild and tasty." },
+      { "rating": 5, "comment": "Huge beer selection!" },
+      { "rating": 4, "comment": "Can get crowded on weekends." }
+    ]
+  },
+  {
+    "name": "Del Frisco's Grille",
+    "cuisine": "American",
+    "address": "154 E 3rd St, Fort Worth, TX 76102",
+    "price_range": "$$$",
+    "summary": "Modern American bar & grill known for steaks, flatbreds, and a bustling Downtown patio.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Prime Cheeseburger", "price": 16.95 },
+      { "item": "Filet Mignon", "price": 38.0 },
+      { "item": "Ahi Tuna Tacos", "price": 14.5 },
+      { "item": "Truffle Mac & Cheese", "price": 8.95 },
+      { "item": "Carrot Cake", "price": 9.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Classy spot for a business lunch." },
+      { "rating": 4, "comment": "Steaks cooked perfectly." },
+      { "rating": 4, "comment": "Love the outdoor seating area." }
+    ]
+  },
+  {
+    "name": "Cafe Modern",
+    "cuisine": "American",
+    "address": "3200 Darnell St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Seasonal, locally sourced dishes served inside the architecturally striking Modern Art Museum.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "11:00-15:00",
+      "wednesday": "11:00-15:00",
+      "thursday": "11:00-15:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-17:00"
+    },
+    "menu": [
+      { "item": "Modern Burger", "price": 15.0 },
+      { "item": "Seasonal Soup", "price": 7.0 },
+      { "item": "Quinoa Salad", "price": 12.5 },
+      { "item": "Pan-Seared Salmon", "price": 24.0 },
+      { "item": "Lavender Honey Cheesecake", "price": 8.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Beautiful setting inside the museum." },
+      { "rating": 4, "comment": "Fresh, creative dishes." },
+      { "rating": 4, "comment": "Perfect lunch after viewing exhibits." }
+    ]
+  },
+  {
+    "name": "HG Sply Co.",
+    "cuisine": "Healthy",
+    "address": "1621 River Run, Suite 176, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Farm-to-table bowls, paleo-friendly plates, and rooftop cocktails overlooking the Trinity River.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Cali Bowl", "price": 14.0 },
+      { "item": "Brisket-Stuffed Sweet Potato", "price": 13.5 },
+      { "item": "Zucchini Noodle Pad Thai", "price": 12.75 },
+      { "item": "Local Kombucha", "price": 5.0 },
+      { "item": "Avocado Brownie", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Healthy food that actually tastes great." },
+      { "rating": 4, "comment": "Awesome rooftop views." },
+      { "rating": 4, "comment": "Good vegan options." }
+    ]
+  },
+  {
+    "name": "Swiss Pastry Shop",
+    "cuisine": "Bakery",
+    "address": "3936 W Vickery Blvd, Fort Worth, TX 76107",
+    "price_range": "$",
+    "summary": "Family-run bakery best known for its legendary Black Forest cake and savory lunch menu.",
+    "hours": {
+      "monday": "07:00-18:00",
+      "tuesday": "07:00-18:00",
+      "wednesday": "07:00-18:00",
+      "thursdayzüg": "07:00-18:00",
+      "friday": "07:00-18:00",
+      "saturday": "07:00-16:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Black Forest Cake Slice", "price": 4.5 },
+      { "item": "Ham & Swiss Sandwich", "price": 8.75 },
+      { "item": "Quiche Lorraine", "price": 5.95 },
+      { "item": "Apple Strudel", "price": 3.75 },
+      { "item": "Latte", "price": 3.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best cake in town." },
+      { "rating": 4, "comment": "Small bakery with big flavor." },
+      { "rating": 5, "comment": "Friendly staff and quick service." }
+    ]
+  },
+  {
+    "name": "Ellerbe Fine Foods",
+    "cuisine": "Southern",
+    "address": "1501 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$$$",
+    "summary": "Refined Southern cooking emphasizing seasonal, locally sourced ingredients in a renovated gas station.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "10:00-14:00"
+    },
+    "menu": [
+      { "item": "Gulf Shrimp & Grits", "price": 26.0 },
+      { "item": "Roasted Beet Salad", "price": 12.0 },
+      { "item": "Herb-Crusted Lamb", "price": 34.0 },
+      { "item": "Skillet Cornbread", "price": 6.0 },
+      { "item": "Seasonal Sorbet Trio", "price": 8.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Every dish feels farm-to-table fresh." },
+      { "rating": 5, "comment": "Elegant dining without being stuffy." },
+      { "rating": 4, "comment": "Reservations recommended." }
+    ]
+  },
+  {
+    "name": "Velvet Taco",
+    "cuisine": "Tacos",
+    "address": "2700 W 7th St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Global-inspired taco combinations and late-night hours, plus the famous red velvet cake.",
+    "hours": {
+      "monday": "10:00-00:00",
+      "tuesday": "10:00-00:00",
+      "wednesday": "10:00-00:00",
+      "thursday": "10:00-02:00",
+      "friday": "10:00-03:00",
+      "saturday": "10:00-03:00",
+      "sunday": "10:00-00:00"
+    },
+    "menu": [
+      { "item": "Chicken Tikka Taco", "price": 5.0 },
+      { "item": "Nashville Hot Tofu Taco", "price": 4.75 },
+      { "item": "Kobe Bacon Burger Taco", "price": 5.5 },
+      { "item": "Mexican Street Corn", "price": 3.5 },
+      { "item": "Red Velvet Cake Slice", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Tacos are creative and delicious." },
+      { "rating": 4, "comment": "Open late which is perfect." },
+      { "rating": 4, "comment": "Line moves quickly." }
+    ]
+  },
+  {
+    "name": "Brewed",
+    "cuisine": "Cafe",
+    "address": "801 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Homey cafe and coffee house featuring craft beer, comfort food, and weekend brunch.",
+    "hours": {
+      "monday": "07:00-22:00",
+      "tuesday": "07:00-22:00",
+      "wednesday": "07:00-22:00",
+      "thursday": "07:00-23:00",
+      "friday": "07:00-23:00",
+      "saturday": "07:00-23:00",
+      "sunday": "07:00-22:00"
+    },
+    "menu": [
+      { "item": "Chicken & Waffles", "price": 13.5 },
+      { "item": "Avocado Toast", "price": 9.75 },
+      { "item": "Brewed Burger", "price": 14.0 },
+      { "item": "Cold Brew Coffee", "price": 4.0 },
+      { "item": "Craft Beer Flight", "price": 9.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Favorite brunch spot in Fort Worth." },
+      { "rating": 4, "comment": "Great coffee and beer selection." },
+      { "rating": 4, "comment": "Cozy atmosphere with board games." }
+    ]
+  },
+  {
+    "name": "Little Red Wasp",
+    "cuisine": "American",
+    "address": "808 Main St, Fort Worth, TX 76102",
+    "price_range": "$$",
+    "summary": "Casual offshoot of Grace offering burgers, fried chicken, and approachable American fare.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Fried Chicken Sandwich", "price": 14.5 },
+      { "item": "Wasp Burger", "price": 15.0 },
+      { "item": "Prime Rib Dip", "price": 16.75 },
+      { "item": "Deviled Eggs", "price": 6.5 },
+      { "item": "Bread Pudding", "price": 7.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Fantastic fried chicken." },
+      { "rating": 4, "comment": "Good happy hour deals." },
+      { "rating": 4, "comment": "Service was quick and friendly." }
+    ]
+  },
+  {
+    "name": "Los Vaqueros",
+    "cuisine": "Tex-Mex",
+    "address": "2629 N Main St, Fort Worth, TX 76164",
+    "price_range": "$$",
+    "summary": "Family-owned Stockyards favorite serving classic Tex-Mex plates and margaritas since 1983.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "menu": [
+      { "item": "Cheese Enchiladas", "price": 11.0 },
+      { "item": "Beef Fajitas for Two", "price": 36.0 },
+      { "item": "Chicken Quesadillas", "price": 12.5 },
+      { "item": "Chile Con Queso", "price": 6.75 },
+      { "item": "House Margarita", "price": 8.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Authentic Tex-Mex flavors." },
+      { "rating": 4, "comment": "Live mariachi on weekends." },
+      { "rating": 4, "comment": "Great for large parties." }
+    ]
+  },
+  {
+    "name": "Grace",
+    "cuisine": "New American",
+    "address": "777 Main St, Fort Worth, TX 76102",
+    "price_range": "$$$",
+    "summary": "Elegant downtown restaurant serving modern American cuisine and an extensive wine list.",
+    "hours": {
+      "monday": "17:00-22:00",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Beef Tenderloin", "price": 42.0 },
+      { "item": "Foie Gras Torchon", "price": 18.0 },
+      { "item": "Crispy Skin Snapper", "price": 34.0 },
+      { "item": "Truffle Fries", "price": 8.0 },
+      { "item": "Chocolate Soufflé", "price": 10.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Exceptional service and food." },
+      { "rating": 4, "comment": "Great wine selection." },
+      { "rating": 5, "comment": "Perfect spot for a special occasion." }
+    ]
+  },
+  {
+    "name": "Paris Coffee Shop",
+    "cuisine": "Cafe",
+    "address": "704 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$",
+    "summary": "Classic diner and bakery famous for homestyle breakfasts and pies since 1926.",
+    "hours": {
+      "monday": "06:00-15:00",
+      "tuesday": "06:00-15:00",
+      "wednesday": "06:00-15:00",
+      "thursday": "06:00-15:00",
+      "friday": "06:00-15:00",
+      "saturday": "06:00-15:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Chicken Fried Steak", "price": 11.95 },
+      { "item": "French Toast", "price": 7.5 },
+      { "item": "Biscuits & Gravy", "price": 6.0 },
+      { "item": "Slice of Pie", "price": 3.95 },
+      { "item": "Bottomless Coffee", "price": 2.25 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best pie in Fort Worth!" },
+      { "rating": 4, "comment": "Friendly, old-school vibe." },
+      { "rating": 4, "comment": "Great value breakfasts." }
+    ]
+  },
+  {
+    "name": "Istanbul Grill & Bar",
+    "cuisine": "Mediterranean",
+    "address": "401 Throckmorton St, Fort Worth, TX 76102",
+    "price_range": "$$",
+    "summary": "Family-run spot offering Turkish classics, kebabs, and house-made pita.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Mixed Grill Platter", "price": 21.0 },
+      { "item": "Chicken Shish Kebab", "price": 16.0 },
+      { "item": "Falafel Plate", "price": 12.0 },
+      { "item": "Lentil Soup", "price": 5.0 },
+      { "item": "Baklava", "price": 4.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Authentic flavors and friendly staff." },
+      { "rating": 4, "comment": "Love the fresh pita." },
+      { "rating": 4, "comment": "Great vegetarian options." }
+    ]
+  },
+  {
+    "name": "Salsa Limón (Magnolia)",
+    "cuisine": "Tacos",
+    "address": "1465 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$",
+    "summary": "Counter-serve taqueria known for Mexico City–style street tacos and salsas.",
+    "hours": {
+      "monday": "07:00-23:00",
+      "tuesday": "07:00-23:00",
+      "wednesday": "07:00-23:00",
+      "thursday": "07:00-23:00",
+      "friday": "07:00-02:00",
+      "saturday": "07:00-02:00",
+      "sunday": "07:00-22:00"
+    },
+    "menu": [
+      { "item": "El Capitan Taco", "price": 4.0 },
+      { "item": "El Campechano Taco", "price": 3.75 },
+      { "item": "Barbacoa Taco", "price": 3.5 },
+      { "item": "Horchata", "price": 2.5 },
+      { "item": "Churros", "price": 3.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best tacos and salsas around." },
+      { "rating": 4, "comment": "Late-night lifesaver." },
+      { "rating": 4, "comment": "Always fresh ingredients." }
+    ]
+  },
+  {
+    "name": "The Capital Grille",
+    "cuisine": "Steakhouse",
+    "address": "800 Main St, Fort Worth, TX 76102",
+    "price_range": "$$$$",
+    "summary": "Upscale steakhouse offering dry-aged steaks, seafood & an award-winning wine list.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "17:00-22:00"
+    },
+    "menu": [
+      { "item": "Dry-Aged NY Strip", "price": 49.0 },
+      { "item": "Lobster Mac & Cheese", "price": 17.0 },
+      { "item": "Seared Tenderloin & Lobster Tails", "price": 55.0 },
+      { "item": "Clam Chowder", "price": 10.0 },
+      { "item": "Classic Cheesecake", "price": 11.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Impeccable steaks and service." },
+      { "rating": 4, "comment": "Expensive but worth it." },
+      { "rating": 5, "comment": "Perfect for celebrations." }
+    ]
+  },
+  {
+    "name": "Mesero",
+    "cuisine": "Mexican",
+    "address": "4955 Clearfork Main St, Fort Worth, TX 76109",
+    "price_range": "$$",
+    "summary": "Stylish spot for elevated Tex-Mex classics and craft cocktails.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Brisket Queso", "price": 9.5 },
+      { "item": "Mesero Dip Trio", "price": 8.0 },
+      { "item": "Tacos de Carnitas", "price": 13.0 },
+      { "item": "Enchiladas Verdes", "price": 14.0 },
+      { "item": "Frozen Mambo Margarita", "price": 10.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Fantastic margaritas." },
+      { "rating": 4, "comment": "Great ambiance and decor." },
+      { "rating": 4, "comment": "Tex-Mex with a modern twist." }
+    ]
+  },
+  {
+    "name": "Clay Pigeon Food & Drink",
+    "cuisine": "New American",
+    "address": "2731 White Settlement Rd, Fort Worth, TX 76107",
+    "price_range": "$$$",
+    "summary": "Chef-driven bistro featuring seasonal menus and a robust wine program.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Bone Marrow Toast", "price": 15.0 },
+      { "item": "CP Burger", "price": 16.0 },
+      { "item": "Pan Roasted Duck Breast", "price": 28.0 },
+      { "item": "Charcuterie Board", "price": 18.0 },
+      { "item": "Bourbon Bread Pudding", "price": 9.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Inventive dishes and excellent wine list." },
+      { "rating": 4, "comment": "Cozy atmosphere." },
+      { "rating": 4, "comment": "Duck breast was divine." }
+    ]
+  },
+  {
+    "name": "The Bearded Lady",
+    "cuisine": "Gastropub",
+    "address": "300 S Main St, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Craft beer bar with creative pub grub and a large patio.",
+    "hours": {
+      "monday": "11:00-00:00",
+      "tuesday": "11:00-00:00",
+      "wednesday": "11:00-00:00",
+      "thursday": "11:00-00:00",
+      "friday": "11:00-01:00",
+      "saturday": "11:00-01:00",
+      "sunday": "11:00-22:00"
+    },
+    "menu": [
+      { "item": "Pork Belly BLT", "price": 13.0 },
+      { "item": "Loaded Fries", "price": 8.0 },
+      { "item": "Shrimp Tacos", "price": 12.0 },
+      { "item": "Bearded Burger", "price": 14.0 },
+      { "item": "Funnel Cake Fries", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Great beer selection and food." },
+      { "rating": 4, "comment": "Fun patio vibe." },
+      { "rating": 4, "comment": "Service can be slow during peak hours." }
+    ]
+  },
+  {
+    "name": "Texas de Brazil",
+    "cuisine": "Brazilian Steakhouse",
+    "address": "101 N Houston St, Fort Worth, TX 76102",
+    "price_range": "$$$",
+    "summary": "All-you-can-eat churrascaria with endless grilled meats carved tableside.",
+    "hours": {
+      "monday": "17:00-22:00",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-22:30",
+      "saturday": "15:00-22:30",
+      "sunday": "15:00-21:00"
+    },
+    "menu": [
+      { "item": "Full Churrasco Dinner", "price": 46.99 },
+      { "item": "Salad Area Only", "price": 29.99 },
+      { "item": "Picanha", "price": 0.0 },
+      { "item": "Caipirinha", "price": 9.5 },
+      { "item": "Caramelized Bananas", "price": 4.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Meat heaven!" },
+      { "rating": 4, "comment": "Great value for big appetites." },
+      { "rating": 4, "comment": "Salad bar is amazing." }
+    ]
+  },
+  {
+    "name": "Lili's Bistro",
+    "cuisine": "Bistro",
+    "address": "1310 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Quaint bistro offering eclectic menu, burgers, and live jazz nights.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "17:00-22:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Gorgonzola Fries", "price": 8.5 },
+      { "item": "Lamb Burger", "price": 15.0 },
+      { "item": "Pepper-Crusted Tuna", "price": 24.0 },
+      { "item": "Soup of the Day", "price": 6.0 },
+      { "item": "Crème Brûlée", "price": 7.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Love the live jazz!" },
+      { "rating": 4, "comment": "Unique menu items." },
+      { "rating": 4, "comment": "Cozy and intimate." }
+    ]
+  },
+  {
+    "name": "Ol' South Pancake House",
+    "cuisine": "Diner",
+    "address": "1509 S University Dr, Fort Worth, TX 76107",
+    "price_range": "$",
+    "summary": "24/7 pancake house famous for German pancakes since 1962.",
+    "hours": {
+      "monday": "00:00-24:00",
+      "tuesday": "00:00-24:00",
+      "wednesday": "00:00-24:00",
+      "thursday": "00:00-24:00",
+      "friday": "00:00-24:00",
+      "saturday": "00:00-24:00",
+      "sunday": "00:00-24:00"
+    },
+    "menu": [
+      { "item": "Dutch Baby Pancake", "price": 9.0 },
+      { "item": "Chicken Fried Steak & Eggs", "price": 12.0 },
+      { "item": "Pecan Waffle", "price": 6.5 },
+      { "item": "Hash Browns", "price": 2.5 },
+      { "item": "Coffee", "price": 2.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best late-night eats." },
+      { "rating": 4, "comment": "German pancake is a must." },
+      { "rating": 4, "comment": "Service is quick and friendly." }
+    ]
+  },
+  {
+    "name": "Blue Sushi Sake Grill",
+    "cuisine": "Sushi",
+    "address": "3131 W 7th St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Trendy sushi bar offering creative rolls, sake cocktails & happy hour specials.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "menu": [
+      { "item": "Lion King Roll", "price": 14.0 },
+      { "item": "Nigiri Sampler", "price": 19.0 },
+      { "item": "Edamame", "price": 5.0 },
+      { "item": "Miso Soup", "price": 4.0 },
+      { "item": "Mochi Ice Cream", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best happy hour in town." },
+      { "rating": 4, "comment": "Fresh sushi and great vibes." },
+      { "rating": 4, "comment": "Can be noisy on weekends." }
+    ]
+  },
+  {
+    "name": "Railhead Smokehouse",
+    "cuisine": "Barbecue",
+    "address": "2900 Montgomery St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Laid-back joint serving generous portions of classic Texas BBQ and cold schooners.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Sliced Brisket Plate", "price": 15.0 },
+      { "item": "Smoked Sausage", "price": 12.0 },
+      { "item": "Potato Salad", "price": 3.0 },
+      { "item": "Peach Cobbler", "price": 4.0 },
+      { "item": "Big Boy Beer", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Brisket melts in your mouth." },
+      { "rating": 4, "comment": "Great portions for the price." },
+      { "rating": 4, "comment": "Love the cold schooners." }
+    ]
+  },
+  {
+    "name": "Righteous Foods",
+    "cuisine": "Healthy",
+    "address": "3405 W 7th St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Colorful cafe offering organic, nutrient-rich fare and cocktails.",
+    "hours": {
+      "monday": "07:00-21:00",
+      "tuesday": "07:00-21:00",
+      "wednesday": "07:00-21:00",
+      "thursday": "07:00-21:00",
+      "friday": "07:00-21:00",
+      "saturday": "08:00-21:00",
+      "sunday": "08:00-15:00"
+    },
+    "menu": [
+      { "item": "Acai Bowl", "price": 10.0 },
+      { "item": "Righteous Nachos", "price": 11.0 },
+      { "item": "Grass-Fed Burger", "price": 14.0 },
+      { "item": "Kombucha Sangria", "price": 8.0 },
+      { "item": "Vegan Brownie", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Healthy yet delicious." },
+      { "rating": 4, "comment": "Great vegan options." },
+      { "rating": 4, "comment": "Love the outdoor patio." }
+    ]
+  },
+  {
+    "name": "Taco Heads",
+    "cuisine": "Tacos",
+    "address": "1812 Montgomery St, Fort Worth, TX 76107",
+    "price_range": "$",
+    "summary": "Local taco stand turned brick-and-mortar serving breakfast and street tacos.",
+    "hours": {
+      "monday": "07:00-22:00",
+      "tuesday": "07:00-22:00",
+      "wednesday": "07:00-22:00",
+      "thursday": "07:00-22:00",
+      "friday": "07:00-23:00",
+      "saturday": "08:00-23:00",
+      "sunday": "08:00-21:00"
+    },
+    "menu": [
+      { "item": "Brisket Egg Taco", "price": 3.5 },
+      { "item": "Migas Taco", "price": 3.0 },
+      { "item": "Pork Al Pastor Taco", "price": 3.75 },
+      { "item": "Queso & Chips", "price": 5.0 },
+      { "item": "Agua Fresca", "price": 3.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Amazing breakfast tacos." },
+      { "rating": 4, "comment": "Quick service." },
+      { "rating": 4, "comment": "Great salsa bar." }
+    ]
+  },
+  {
+    "name": "Bonnell's Fine Texas Cuisine",
+    "cuisine": "Texan",
+    "address": "4259 Bryant Irvin Rd, Fort Worth, TX 76109",
+    "price_range": "$$$$",
+    "summary": "Chef Jon Bonnell's upscale spot highlighting wild game and regional ingredients.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Pepper-Crusted Buffalo Tenderloin", "price": 45.0 },
+      { "item": "Smoked Elk Sliders", "price": 16.0 },
+      { "item": "Ancho Chile Rubbed Pork Chop", "price": 32.0 },
+      { "item": "Shrimp & Grits", "price": 28.0 },
+      { "item": "Flourless Chocolate Cake", "price": 9.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Unique Texas flavors." },
+      { "rating": 5, "comment": "Excellent wild game dishes." },
+      { "rating": 4, "comment": "Pricey but memorable." }
+    ]
+  },
+  {
+    "name": "Pacific Table",
+    "cuisine": "Seafood",
+    "address": "1600 S University Dr, Fort Worth, TX 76107",
+    "price_range": "$$$",
+    "summary": "Modern seafood restaurant featuring sushi, oysters, and West Coast flavors.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Cedar Plank Salmon", "price": 27.0 },
+      { "item": "Oyster Sampler", "price": 18.0 },
+      { "item": "Spicy Tuna Roll", "price": 12.0 },
+      { "item": "Shishito Peppers", "price": 7.0 },
+      { "item": "Key Lime Pie", "price": 8.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Fresh seafood and great sushi." },
+      { "rating": 4, "comment": "Nice ambiance." },
+      { "rating": 4, "comment": "Excellent oyster happy hour." }
+    ]
+  },
+  {
+    "name": "Rise Soufflé",
+    "cuisine": "French",
+    "address": "5135 Monahans Ave, Fort Worth, TX 76109",
+    "price_range": "$$",
+    "summary": "Charming bistro specializing in savory and sweet soufflés in a whimsical setting.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Cheese Soufflé", "price": 14.0 },
+      { "item": "Crab Soufflé", "price": 18.0 },
+      { "item": "Chocolate Soufflé", "price": 11.0 },
+      { "item": "Marshmallow Soup", "price": 7.0 },
+      { "item": "Champagne Flight", "price": 12.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "The soufflés are heavenly." },
+      { "rating": 4, "comment": "Unique dining experience." },
+      { "rating": 4, "comment": "Lovely decor." }
+    ]
+  },
+  {
+    "name": "Mac's Bar & Grill",
+    "cuisine": "American",
+    "address": "301 Main St, Fort Worth, TX 76102",
+    "price_range": "$$",
+    "summary": "Long-standing grill offering steaks, seafood, and Texas comfort fare in a relaxed space.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Top Sirloin", "price": 24.0 },
+      { "item": "Cilantro Chicken", "price": 17.0 },
+      { "item": "Shrimp Scampi", "price": 21.0 },
+      { "item": "Loaded Baked Potato", "price": 5.0 },
+      { "item": "Bread Pudding", "price": 7.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Great steaks and service." },
+      { "rating": 4, "comment": "Casual and comfortable." },
+      { "rating": 4, "comment": "Good value happy hour." }
+    ]
+  },
+  {
+    "name": "Shinjuku Station",
+    "cuisine": "Japanese",
+    "address": "711 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Trendy izakaya-style eatery serving sushi, ramen, and small plates.",
+    "hours": {
+      "monday": "17:00-22:00",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "17:00-21:00"
+    },
+    "menu": [
+      { "item": "Spicy Tonkotsu Ramen", "price": 13.0 },
+      { "item": "Hamachi Crudo", "price": 12.0 },
+      { "item": "Station Roll", "price": 14.0 },
+      { "item": "Pork Belly Bun", "price": 7.0 },
+      { "item": "Matcha Cheesecake", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best ramen in Fort Worth." },
+      { "rating": 4, "comment": "Great sake selection." },
+      { "rating": 4, "comment": "Cozy late-night spot." }
+    ]
+  },
+  {
+    "name": "Dutch's Hamburgers",
+    "cuisine": "Burgers",
+    "address": "3009 S University Dr, Fort Worth, TX 76109",
+    "price_range": "$",
+    "summary": "Campus-area burger joint famous for hearty patties, cheddar fries, and a laid-back vibe near TCU.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Classic Burger", "price": 8.5 },
+      { "item": "Cheddar Fries", "price": 4.0 },
+      { "item": "Chicken Sandwich", "price": 8.75 },
+      { "item": "Onion Rings", "price": 3.5 },
+      { "item": "Hand-Spun Milkshake", "price": 4.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best burgers by TCU!" },
+      { "rating": 4, "comment": "Cheddar fries are addictive." },
+      { "rating": 4, "comment": "Casual, family-friendly spot." }
+    ]
+  },
+  {
+    "name": "Pho District",
+    "cuisine": "Vietnamese",
+    "address": "2401 W 7th St #117, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Modern eatery serving authentic pho, banh mi, and Vietnamese street snacks in the West 7th district.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "12:00-20:00"
+    },
+    "menu": [
+      { "item": "Pho Tai", "price": 11.0 },
+      { "item": "Pork Banh Mi", "price": 8.5 },
+      { "item": "Spring Rolls", "price": 5.5 },
+      { "item": "Vietnamese Iced Coffee", "price": 4.0 },
+      { "item": "Lemongrass Chicken Bowl", "price": 12.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Rich broth and fresh herbs." },
+      { "rating": 4, "comment": "Great vegan pho option." },
+      { "rating": 4, "comment": "Fast service and cool décor." }
+    ]
+  },
+  {
+    "name": "La Playa Maya",
+    "cuisine": "Mexican Seafood",
+    "address": "1540 N Main St, Fort Worth, TX 76164",
+    "price_range": "$$",
+    "summary": "Colorful spot dishing coastal Mexican fare, seafood cocktails, and margaritas in the Stockyards area.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Shrimp Ceviche", "price": 12.0 },
+      { "item": "Fish Tacos", "price": 13.0 },
+      { "item": "Camarones a la Diabla", "price": 16.0 },
+      { "item": "Seafood Enchiladas", "price": 15.0 },
+      { "item": "House Margarita", "price": 8.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Authentic coastal flavors." },
+      { "rating": 4, "comment": "Great patio seating." },
+      { "rating": 4, "comment": "Portions are generous." }
+    ]
+  },
+  {
+    "name": "Fort Brewery & Pizza",
+    "cuisine": "Brewpub",
+    "address": "2737 Tillar St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Local craft brewery with wood-fired pizzas, live music, and a dog-friendly patio.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Trinity Tripel Pizza", "price": 14.0 },
+      { "item": "Margherita Pizza", "price": 12.0 },
+      { "item": "Brewer's Pretzel", "price": 8.0 },
+      { "item": "Pepperoni Rolls", "price": 9.0 },
+      { "item": "House IPA Pint", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Fantastic beer selection." },
+      { "rating": 4, "comment": "Live music was a bonus." },
+      { "rating": 4, "comment": "Loved the wood-fired crust." }
+    ]
+  },
+  {
+    "name": "Snooze, an A.M. Eatery",
+    "cuisine": "Breakfast",
+    "address": "2150 W 7th St, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Vibrant breakfast chain offering creative pancakes, bennies, and morning cocktails.",
+    "hours": {
+      "monday": "06:30-14:30",
+      "tuesday": "06:30-14:30",
+      "wednesday": "06:30-14:30",
+      "thursday": "06:30-14:30",
+      "friday": "06:30-14:30",
+      "saturday": "06:30-16:00",
+      "sunday": "06:30-16:00"
+    },
+    "menu": [
+      { "item": "Pineapple Upside-Down Pancakes", "price": 11.5 },
+      { "item": "Breakfast Pot Pie", "price": 12.0 },
+      { "item": "Snooze Classic Benny", "price": 13.0 },
+      { "item": "Morning Margs", "price": 9.0 },
+      { "item": "Sweet Potato Hash", "price": 10.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best brunch in town." },
+      { "rating": 4, "comment": "Expect a wait on weekends." },
+      { "rating": 4, "comment": "Great vegan options." }
+    ]
+  },
+  {
+    "name": "Cane Rosso",
+    "cuisine": "Pizza",
+    "address": "815 W Magnolia Ave, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Neapolitan-style pizzeria specializing in wood-fired pies and craft cocktails.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Margherita DOC", "price": 14.0 },
+      { "item": "Honey Bastard Pizza", "price": 16.0 },
+      { "item": "Cacio e Pepe Arancini", "price": 8.0 },
+      { "item": "Caesar Salad", "price": 7.5 },
+      { "item": "Tiramisu", "price": 6.5 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Authentic Neapolitan crust." },
+      { "rating": 4, "comment": "Honey Bastard is a must-try." },
+      { "rating": 4, "comment": "Great service and vibe." }
+    ]
+  },
+  {
+    "name": "Toro Toro",
+    "cuisine": "Latin Steakhouse",
+    "address": "200 Main St, Fort Worth, TX 76102",
+    "price_range": "$$$",
+    "summary": "Pan-Latin steakhouse with dramatic décor, wood-fired meats, and craft cocktails inside The Worthington.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Churrasco Skirt Steak", "price": 32.0 },
+      { "item": "Achiote Pork Belly", "price": 14.0 },
+      { "item": "Lomo Saltado", "price": 28.0 },
+      { "item": "Yuca Fries", "price": 6.0 },
+      { "item": "Tres Leches Cake", "price": 8.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Stunning presentation." },
+      { "rating": 4, "comment": "Cocktails are phenomenal." },
+      { "rating": 4, "comment": "Pricey but memorable." }
+    ]
+  },
+  {
+    "name": "Taverna",
+    "cuisine": "Italian",
+    "address": "450 Throckmorton St, Fort Worth, TX 76102",
+    "price_range": "$$",
+    "summary": "Chic Italian trattoria known for risotto, brick-oven pizzas, and weekend brunch with $2 mimosas.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Risotto al Funghi", "price": 17.0 },
+      { "item": "Prosciutto Pizza", "price": 15.0 },
+      { "item": "Caprese Salad", "price": 9.0 },
+      { "item": "Lobster Ravioli", "price": 19.0 },
+      { "item": "Tiramisu", "price": 7.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best risotto in town." },
+      { "rating": 4, "comment": "Great brunch deals." },
+      { "rating": 4, "comment": "Lovely patio." }
+    ]
+  },
+  {
+    "name": "The Biscuit Bar",
+    "cuisine": "Southern",
+    "address": "1701 River Run #181, Fort Worth, TX 76107",
+    "price_range": "$",
+    "summary": "Casual spot crafting oversized biscuit sandwiches, tots, and boozy brunch drinks.",
+    "hours": {
+      "monday": "07:00-21:00",
+      "tuesday": "07:00-21:00",
+      "wednesday": "07:00-21:00",
+      "thursday": "07:00-21:00",
+      "friday": "07:00-22:00",
+      "saturday": "07:00-22:00",
+      "sunday": "07:00-21:00"
+    },
+    "menu": [
+      { "item": "Chicken & Biscuit", "price": 8.0 },
+      { "item": "Biscuit French Toast", "price": 7.5 },
+      { "item": "Hoss Biscuit", "price": 9.0 },
+      { "item": "Sweet Potato Tots", "price": 3.5 },
+      { "item": "Biscuit Cinnamon Roll", "price": 4.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Huge fluffy biscuits!" },
+      { "rating": 4, "comment": "Tots are crispy and delicious." },
+      { "rating": 4, "comment": "Great quick breakfast spot." }
+    ]
+  },
+  {
+    "name": "Panther City BBQ",
+    "cuisine": "Barbecue",
+    "address": "201 E Hattie St, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Award-winning smokehouse serving elevated Texas BBQ from a cozy Near Southside location.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "11:00-15:00",
+      "wednesday": "11:00-15:00",
+      "thursday": "11:00-15:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-15:00"
+    },
+    "menu": [
+      { "item": "Brisket Elote", "price": 8.0 },
+      { "item": "Pork Spare Ribs", "price": 14.0 },
+      { "item": "Beef Brisket", "price": 18.0 },
+      { "item": "Jalapeño Cheese Sausage", "price": 6.0 },
+      { "item": "Banana Pudding", "price": 4.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Top 5 BBQ in Texas!" },
+      { "rating": 4, "comment": "Lines move fast." },
+      { "rating": 4, "comment": "Elote is incredible." }
+    ]
+  },
+  {
+    "name": "Chef Point Bar & Restaurant",
+    "cuisine": "American",
+    "address": "5901 Watauga Rd, Watauga, TX 76148",
+    "price_range": "$$",
+    "summary": "Gas-station-turned-gourmet bistro famous for bread pudding and upscale comfort food.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Better Than Sex Bread Pudding", "price": 8.0 },
+      { "item": "Blackened Stuffed Chicken", "price": 18.0 },
+      { "item": "Bloody Mary", "price": 9.0 },
+      { "item": "Lobster Bisque", "price": 7.0 },
+      { "item": "Texas Kobe Meatloaf", "price": 19.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Bread pudding lives up to the name." },
+      { "rating": 4, "comment": "Unexpected gem." },
+      { "rating": 4, "comment": "Huge portions." }
+    ]
+  },
+  {
+    "name": "Enchilada's Ole",
+    "cuisine": "Mexican",
+    "address": "2418 Forest Park Blvd, Fort Worth, TX 76110",
+    "price_range": "$$",
+    "summary": "Bright cantina specializing in scratch-made enchiladas and brisket tacos.",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "menu": [
+      { "item": "Brisket Enchiladas", "price": 13.0 },
+      { "item": "Chicken Verde Enchiladas", "price": 12.0 },
+      { "item": "Queso Ole", "price": 7.0 },
+      { "item": "Street Corn", "price": 4.5 },
+      { "item": "Sopapillas", "price": 5.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best enchiladas in town." },
+      { "rating": 4, "comment": "Friendly service." },
+      { "rating": 4, "comment": "Menu is gluten-free friendly." }
+    ]
+  },
+  {
+    "name": "Ruth's Chris Steak House",
+    "cuisine": "Steakhouse",
+    "address": "813 Main St, Fort Worth, TX 76102",
+    "price_range": "$$$$",
+    "summary": "Classic steakhouse chain known for sizzling butter-topped USDA Prime steaks.",
+    "hours": {
+      "monday": "17:00-22:00",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "17:00-22:00"
+    },
+    "menu": [
+      { "item": "Filet Mignon", "price": 47.0 },
+      { "item": "Cowboy Ribeye", "price": 57.0 },
+      { "item": "Lobster Tail", "price": 39.0 },
+      { "item": "Creamed Spinach", "price": 9.0 },
+      { "item": "Bread Pudding", "price": 10.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Steaks cooked to perfection." },
+      { "rating": 4, "comment": "Romantic atmosphere." },
+      { "rating": 4, "comment": "Service is top-notch." }
+    ]
+  },
+  {
+    "name": "Fixe Southern House",
+    "cuisine": "Southern",
+    "address": "5282 Marathon Ave, Fort Worth, TX 76109",
+    "price_range": "$$$",
+    "summary": "Refined Southern eatery offering upscale comfort food and famed buttermilk biscuits.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Buttermilk Biscuits", "price": 6.0 },
+      { "item": "Fried Chicken Thighs", "price": 22.0 },
+      { "item": "Shrimp & Grits", "price": 24.0 },
+      { "item": "Sweet Tea Brined Pork Chop", "price": 29.0 },
+      { "item": "Pecan Pie", "price": 8.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Biscuits melt in your mouth." },
+      { "rating": 4, "comment": "Elegant Southern charm." },
+      { "rating": 4, "comment": "Cocktails are fantastic." }
+    ]
+  },
+  {
+    "name": "Hopdoddy Burger Bar",
+    "cuisine": "Burgers",
+    "address": "2300 W 7th St Suite 140, Fort Worth, TX 76107",
+    "price_range": "$$",
+    "summary": "Craft burger bar featuring hormone-free meats, hand-cut fries, and boozy milkshakes.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-22:00"
+    },
+    "menu": [
+      { "item": "Llano Poblano Burger", "price": 12.0 },
+      { "item": "Magic Shroom Burger", "price": 12.5 },
+      { "item": "Parmesan Truffle Fries", "price": 6.5 },
+      { "item": "Nutella Pretzel Shake", "price": 6.0 },
+      { "item": "Impossible Burger", "price": 13.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Burgers are super juicy." },
+      { "rating": 4, "comment": "Loved the truffle fries." },
+      { "rating": 4, "comment": "Great veggie options." }
+    ]
+  },
+  {
+    "name": "Pinstripes",
+    "cuisine": "American",
+    "address": "5001 Trailhead Bend Way, Fort Worth, TX 76109",
+    "price_range": "$$$",
+    "summary": "Upscale venue offering bistro fare, bowling, bocce, and a spacious patio at Clearfork.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "menu": [
+      { "item": "Prosciutto & Fig Flatbread", "price": 15.0 },
+      { "item": "Filet Mignon Sliders", "price": 18.0 },
+      { "item": "Chicken Parmesan", "price": 20.0 },
+      { "item": "Calamari", "price": 12.0 },
+      { "item": "Gelato Trio", "price": 7.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Fun place for groups." },
+      { "rating": 4, "comment": "Food exceeds expectations." },
+      { "rating": 4, "comment": "Beautiful patio." }
+    ]
+  },
+  {
+    "name": "Torchy's Tacos",
+    "cuisine": "Tacos",
+    "address": "928 Northton St, Fort Worth, TX 76104",
+    "price_range": "$",
+    "summary": "Austin-born taco spot slinging creative tacos, queso, and margaritas.",
+    "hours": {
+      "monday": "08:00-22:00",
+      "tuesday": "08:00-22:00",
+      "wednesday": "08:00-22:00",
+      "thursday": "08:00-22:00",
+      "friday": "08:00-23:00",
+      "saturday": "08:00-23:00",
+      "sunday": "08:00-22:00"
+    },
+    "menu": [
+      { "item": "Trailer Park Taco", "price": 4.0 },
+      { "item": "Brushfire Taco", "price": 4.5 },
+      { "item": "Green Chile Queso", "price": 5.0 },
+      { "item": "Street Corn", "price": 4.0 },
+      { "item": "Chips & Salsa", "price": 3.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Queso is legendary." },
+      { "rating": 4, "comment": "Great variety of tacos." },
+      { "rating": 4, "comment": "Try the secret menu!" }
+    ]
+  },
+  {
+    "name": "Black Cat Pizza",
+    "cuisine": "Pizza",
+    "address": "401 Bryan Ave Ste 109, Fort Worth, TX 76104",
+    "price_range": "$$",
+    "summary": "Artisanal pizzeria offering creative pies with local ingredients and natural wine.",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "12:00-20:00"
+    },
+    "menu": [
+      { "item": "Chupacabra Pizza", "price": 17.0 },
+      { "item": "Margherita Pie", "price": 15.0 },
+      { "item": "Garlic Knots", "price": 6.0 },
+      { "item": "Caesar Salad", "price": 8.0 },
+      { "item": "Seasonal Gelato", "price": 5.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Best crust in the city." },
+      { "rating": 4, "comment": "Unique flavor combos." },
+      { "rating": 4, "comment": "Cool industrial space." }
+    ]
+  },
+  {
+    "name": "West Side Cafe",
+    "cuisine": "Diner",
+    "address": "7950 Camp Bowie W Blvd, Fort Worth, TX 76116",
+    "price_range": "$",
+    "summary": "Home-style diner serving hearty breakfasts, chicken fried steak, and pies since 1992.",
+    "hours": {
+      "monday": "06:00-15:00",
+      "tuesday": "06:00-15:00",
+      "wednesday": "06:00-15:00",
+      "thursday": "06:00-15:00",
+      "friday": "06:00-15:00",
+      "saturday": "06:00-15:00",
+      "sunday": "07:00-15:00"
+    },
+    "menu": [
+      { "item": "Chicken Fried Steak", "price": 9.5 },
+      { "item": "Biscuits & Gravy", "price": 5.0 },
+      { "item": "Patty Melt", "price": 8.5 },
+      { "item": "Pecan Pie", "price": 4.0 },
+      { "item": "Sweet Iced Tea", "price": 2.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Feels like home cooking." },
+      { "rating": 4, "comment": "Great value and portions." },
+      { "rating": 4, "comment": "Service with a smile." }
+    ]
+  },
+  {
+    "name": "H3 Ranch",
+    "cuisine": "Steakhouse",
+    "address": "109 E Exchange Ave, Fort Worth, TX 76164",
+    "price_range": "$$$",
+    "summary": "Stockyards staple serving mesquite-grilled steaks, ribs, and wood-fired specialties with cowboy flair.",
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "menu": [
+      { "item": "Cowtown Ribeye", "price": 34.0 },
+      { "item": "Hickory Smoked Ribs", "price": 26.0 },
+      { "item": "Prime Rib Sandwich", "price": 15.0 },
+      { "item": "Bison Sausage", "price": 9.0 },
+      { "item": "Apple Cobbler", "price": 6.0 }
+    ],
+    "reviews": [
+      { "rating": 5, "comment": "Ribeye was cooked perfectly." },
+      { "rating": 4, "comment": "Fun Old West atmosphere." },
+      { "rating": 4, "comment": "Live music on weekends." }
+    ]
   }
 ]
