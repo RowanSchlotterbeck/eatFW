@@ -41,10 +41,26 @@ def ingest_data():
     # Process and store each restaurant
     for i, restaurant in enumerate(data):
 
-        # Create a single document for embedding
+        # Create a richer document for embedding
+        reviews = restaurant.get('reviews', [])
+        avg_rating = (
+            round(sum(r.get('rating', 0) for r in reviews) / len(reviews), 2)
+            if reviews else "N/A"
+        )
+
+        menu_items = restaurant.get('menu', [])
+        menu_highlights = (
+            ", ".join([f"{item.get('item')} (${'{:.2f}'.format(item.get('price', 0))})" for item in menu_items[:5]])
+            if menu_items else "N/A"
+        )
+
         document = (
-            f"Name: {restaurant.get('name', 'N/A')}\\n"
-            f"Cuisine: {restaurant.get('cuisine', 'N/A')}\\n"
+            f"Name: {restaurant.get('name', 'N/A')}\n"
+            f"Cuisine: {restaurant.get('cuisine', 'N/A')}\n"
+            f"Price Range: {restaurant.get('price_range', 'N/A')}\n"
+            f"Address: {restaurant.get('address', 'N/A')}\n"
+            f"Average Rating: {avg_rating}\n"
+            f"Menu Highlights: {menu_highlights}\n"
             f"Summary: {restaurant.get('summary', 'N/A')}"
         )
         

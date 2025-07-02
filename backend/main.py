@@ -80,7 +80,7 @@ async def ask_question(query: Query):
     prompt_template = (
         "You are an expert on restaurants in Fort Worth, Texas. Your goal is to provide helpful and accurate recommendations to users.\\n\\n"
         "Using ONLY the information from the context provided below, answer the user's question.\\n"
-        "Do not use any external knowledge. If the context does not contain the answer, state that you don't have enough information to answer.\\n\\n"
+        "Do not use any external knowledge. If the context does not contain the answer, give the closet answer to the query available\\n\\n"
         f"Context:\\n{context}\\n\\n"
         f"User's Question: {query.text}"
     )
