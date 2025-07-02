@@ -3,10 +3,11 @@ import chromadb
 import json
 import os
 
+# ---THIS CHUNCK OF CODE WAS IS THE SOLUTION TO THE PATH PROBLEM PREVIOUSLY ENCOUNTERED---
 # Get the absolute path to the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# --- Constants ---
+
 # Use absolute paths to ensure the script can be run from anywhere
 CHROMA_PATH = os.path.join(SCRIPT_DIR, "chroma_db")
 DATA_PATH = os.path.join(SCRIPT_DIR, "resturant-data.json")
@@ -20,13 +21,13 @@ def ingest_data():
     """
     print("Starting data ingestion...")
 
-    # Initialize ChromaDB client
+    # Init ChromaDB client
     client = chromadb.PersistentClient(path=CHROMA_PATH)
     
     # Get or create the collection
     collection = client.get_or_create_collection(name=COLLECTION_NAME)
 
-    # Load the restaurant data
+    # Load restaurant data
     try:
         with open(DATA_PATH, 'r') as f:
             data = json.load(f)
@@ -39,6 +40,7 @@ def ingest_data():
 
     # Process and store each restaurant
     for i, restaurant in enumerate(data):
+
         # Create a single document for embedding
         document = (
             f"Name: {restaurant.get('name', 'N/A')}\\n"
@@ -53,7 +55,7 @@ def ingest_data():
         )
         embedding = response["embedding"]
         
-        # Store in ChromaDB
+        # Store in Chroma
         collection.add(
             ids=[str(i)],  # IDs must be strings
             embeddings=[embedding],

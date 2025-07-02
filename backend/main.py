@@ -5,10 +5,12 @@ import ollama
 import chromadb
 import os
 
+
+# ---THIS CHUNCK OF CODE WAS IS THE SOLUTION TO THE PATH PROBLEM PREVIOUSLY ENCOUNTERED---
 # Get the absolute path to the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# --- Constants ---
+
 # Use absolute paths to ensure the script can be run from anywhere
 CHROMA_PATH = os.path.join(SCRIPT_DIR, "chroma_db")
 EMBEDDING_MODEL = "nomic-embed-text"
@@ -16,11 +18,12 @@ LLM_MODEL = "llama3"
 COLLECTION_NAME = "restaurants"
 
 
-# --- FastAPI App Initialization ---
+# FastAPI init
 app = FastAPI()
 
 # Define the origins that are allowed to access the API
-# For development, this will be your Next.js frontend
+# For development, this will be your Next.js frontend 
+# I think this will evenutally get changed once put on the cloud
 origins = [
     "http://localhost:3000",
 ]
@@ -35,7 +38,6 @@ app.add_middleware(
     allow_headers=["*"], # Allow all headers
 )
 
-# --- ChromaDB and Ollama Client Initialization ---
 # Initialize clients once when the server starts
 try:
     chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
@@ -44,7 +46,7 @@ try:
 except Exception as e:
     print(f"Error connecting to ChromaDB or getting collection: {e}")
     print("Please ensure you have run ingest.py successfully before starting the server.")
-    # Exit if we can't connect to the database, as the API is useless without it.
+    # Exit if we can't connect to the database
     exit()
 
 
