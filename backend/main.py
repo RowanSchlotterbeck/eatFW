@@ -4,6 +4,7 @@ from pydantic import BaseModel
 import ollama
 import chromadb
 import os
+import json
 
 
 # ---THIS CHUNCK OF CODE WAS IS THE SOLUTION TO THE PATH PROBLEM PREVIOUSLY ENCOUNTERED---
@@ -78,9 +79,12 @@ async def ask_question(query: Query):
 
     # 3. Augment the prompt with the retrieved context
     prompt_template = (
-        "You are an expert on restaurants in Fort Worth, Texas. Your goal is to provide helpful and accurate recommendations to users.\\n\\n"
-        "Using ONLY the information from the context provided below, answer the user's question.\\n"
-        "Do not use any external knowledge. If the context does not contain the answer, give the closet answer to the query available\\n\\n"
+        "You are an expert on restaurants in Fort Worth, Texas specialising in Fort Worth dining.\\n\\n"
+        "Using ONLY the information from the context provided below, return EXACTLY three restaurant recommendations.\\n"
+        "FORMAT YOUR ENTIRE RESPONSE AS A VALID JSON ARRAY (no markdown or code fences) where each element has the keys: name, shortDescription, address, matchHighlights.\\n"
+        "• Description >= 100 words and should naturally weave in relevant parts of the user's request.\\n"
+        "• matchHighlights summarises which parts of the context matched the user's query.\\n\\n"
+        "If the context is insufficient, do your best with the available information but still comply with the JSON format.\\n\\n"
         f"Context:\\n{context}\\n\\n"
         f"User's Question: {query.text}"
     )
@@ -98,10 +102,25 @@ async def ask_question(query: Query):
                 {'role': 'user', 'content': prompt_template}
             ]
         )
-        final_answer = response['message']['content']
+
+        # Attempt to parse the LLM response as JSON so the frontend receives structured data
+        try:
+            restaurants = json.loads(response['message']['content'])
+        except json.JSONDecodeError as json_err:
+            print(f"JSON decode error: {json_err}")
+            restaurants = [{
+                "name": "Unknown",
+                "shortDescription": response['message']['content'],
+                "address": "",
+                "matchHighlights": ""
+            }]
     except Exception as e:
         print(f"Error calling Ollama chat API: {e}")
-        final_answer = "Sorry, I'm having trouble connecting to the AI model right now. Please try again later."
+        restaurants = [{
+            "name": "Error",
+            "shortDescription": "Sorry, I'm having trouble connecting to the AI model right now.",
+            "address": "",
+            "matchHighlights": ""
+        }]
 
-    print(f"Generated answer: {final_answer}")
-    return {"answer": final_answer} 
+    return {"restaurants": restaurants} 

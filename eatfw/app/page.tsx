@@ -3,14 +3,17 @@
 import { useState, useRef, useEffect } from "react";
 
 // Define the type message, makes it easier for the Message type decleration
-interface Message {
-  sender: "user" | "ai";
-  text: string;
+interface Restaurant {
+  name: string;
+  shortDescription: string;
+  address?: string;
+  matchHighlights?: string;
 }
 
 export default function Home() {
-  const [messages, setMessages] = useState<Message[]>([]); // State the tracks an array of userMessages
+  const [restaurants, setRestaurants] = useState<Restaurant[]>([]); // Holds the 3-card results
   const [isLoading, setIsLoading] = useState(false); // State that tracks the loading state during an API call
+  const [lastQuery, setLastQuery] = useState(""); // Remembers the user's last submitted query
   const [inputValue, setInputValue] = useState(""); // State that tracks the input of the user, will be effected by STT if used
   const [isListening, setIsListening] = useState(false); // State the tracks if the client is listening to the user
   const recognitionRef = useRef<any>(null); // Used to define the recognition object, must be type any and defualted to null
@@ -84,13 +87,9 @@ export default function Home() {
     e.preventDefault();
     if (!inputValue.trim()) return;
 
-    const userMessage = inputValue;
-    const newMessages: Message[] = [
-      ...messages,
-      { sender: "user", text: userMessage },
-    ];
-    setMessages(newMessages);
+    const userQuery = inputValue.trim();
     setInputValue("");
+    setLastQuery(userQuery); // Store query for UI feedback
     setIsLoading(true);
 
     try {
@@ -99,7 +98,7 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text: userMessage }),
+        body: JSON.stringify({ text: userQuery }),
       });
 
       if (!response.ok) {
@@ -107,20 +106,10 @@ export default function Home() {
       }
 
       const data = await response.json();
-
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { sender: "ai", text: data.answer },
-      ]);
+      setRestaurants(data.restaurants ?? []);
     } catch (error) {
       console.error("Failed to fetch from the API:", error);
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        {
-          sender: "ai",
-          text: "Sorry, I'm currently enjoying the art at the Kimbell right now. Please try again later.",
-        },
-      ]);
+      setRestaurants([]);
     } finally {
       setIsLoading(false);
     }
@@ -138,9 +127,16 @@ export default function Home() {
       </header>
 
       <main className="flex-1 overflow-y-auto p-6">
-        <div className="flex flex-col space-y-4">
-          {messages.length === 0 && !isLoading ? (
-            <div className="flex items-center justify-center h-full text-gray-400">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Informational banner about the current query */}
+          {!isLoading && lastQuery && restaurants.length > 0 && (
+            <div className="col-span-full text-center text-sm text-gray-500 dark:text-gray-400 mb-2">
+              Showing results for <span className="italic">"{lastQuery}"</span>
+            </div>
+          )}
+
+          {restaurants.length === 0 && !isLoading ? (
+            <div className="col-span-full flex items-center justify-center text-gray-400">
               <div className="text-center">
                 <p>Ask a question to get started!</p>
                 <p className="text-xs">
@@ -149,34 +145,30 @@ export default function Home() {
               </div>
             </div>
           ) : (
-            messages.map((message, index) => (
+            restaurants.map((restaurant, index) => (
               <div
                 key={index}
-                className={`flex ${
-                  message.sender === "user" ? "justify-end" : "justify-start"
-                }`}
+                className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 flex flex-col"
               >
-                <div
-                  className={`max-w-xs lg:max-w-md p-3 rounded-lg ${
-                    message.sender === "user"
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                  }`}
-                >
-                  <p>{message.text}</p>
-                </div>
+                <h2 className="text-xl font-semibold mb-2">
+                  {restaurant.name}
+                </h2>
+                <p className="text-gray-700 dark:text-gray-300 flex-1">
+                  {restaurant.shortDescription}
+                </p>
+                {restaurant.address && (
+                  <p className="text-sm text-gray-500 mt-4">
+                    {restaurant.address}
+                  </p>
+                )}
               </div>
             ))
           )}
           {isLoading && (
-            <div className="flex justify-start">
-              <div className="p-3 rounded-lg ">
-                <div className="flex items-center space-x-2">
-                  <div className="w-full h-auto   animate-pulse [animation-delay:0.4s]">
-                    <p>Digitally Driving around Fort Worth</p>
-                  </div>
-                </div>
-              </div>
+            <div className="col-span-full flex justify-center">
+              <p className="animate-pulse">
+                Searching Fort Worth for "{lastQuery}" …
+              </p>
             </div>
           )}
         </div>
