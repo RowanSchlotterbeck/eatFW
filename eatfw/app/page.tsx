@@ -16,6 +16,7 @@ export default function Home() {
   const [lastQuery, setLastQuery] = useState(""); // Remembers the user's last submitted query
   const [inputValue, setInputValue] = useState(""); // State that tracks the input of the user, will be effected by STT if used
   const [isListening, setIsListening] = useState(false); // State the tracks if the client is listening to the user
+  const [pastQueries, setPastQueries] = useState<string[]>([]); // Stores recent user queries for chip history
   const recognitionRef = useRef<any>(null); // Used to define the recognition object, must be type any and defualted to null
 
   // Create the Speech Recogntion object in a UseEffect hook
@@ -82,14 +83,9 @@ export default function Home() {
     }
   };
 
-  // When the user submits, a message is appended to the messages array -> API is called
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (!inputValue.trim()) return;
-
-    const userQuery = inputValue.trim();
-    setInputValue("");
-    setLastQuery(userQuery); // Store query for UI feedback
+  // Helper to fetch restaurants based on a given query
+  const fetchRestaurants = async (query: string) => {
+    setLastQuery(query);
     setIsLoading(true);
 
     try {
@@ -98,7 +94,7 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text: userQuery }),
+        body: JSON.stringify({ text: query }),
       });
 
       if (!response.ok) {
@@ -113,6 +109,28 @@ export default function Home() {
     } finally {
       setIsLoading(false);
     }
+  };
+
+  // When the user submits, a message is appended to the messages array -> API is called
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!inputValue.trim()) return;
+
+    const userQuery = inputValue.trim();
+    setInputValue("");
+
+    // Update chip history: ensure uniqueness & cap at 10 entries
+    setPastQueries((prev) => {
+      const updated = [userQuery, ...prev.filter((q) => q !== userQuery)];
+      return updated.slice(0, 10);
+    });
+
+    await fetchRestaurants(userQuery);
+  };
+
+  // Handle clicking a query chip
+  const handleChipClick = (query: string) => {
+    fetchRestaurants(query);
   };
 
   return (
@@ -235,6 +253,21 @@ export default function Home() {
               </button>
             </div>
           </form>
+
+          {/* History chips */}
+          {pastQueries.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-3 overflow-x-auto">
+              {pastQueries.map((query, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleChipClick(query)}
+                  className="px-3 py-1 mt-5 rounded-full bg-gray-200 dark:bg-gray-700 text-sm hover:bg-gray-300 dark:hover:bg-gray-600 whitespace-nowrap"
+                >
+                  {query}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       </footer>
     </div>
