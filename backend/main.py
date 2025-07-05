@@ -13,7 +13,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 # Use absolute paths to ensure the script can be run from anywhere
-CHROMA_PATH = os.path.join(SCRIPT_DIR, "chroma_db")
+CHROMA_PATH = os.getenv("CHROMA_PATH", os.path.join(SCRIPT_DIR, "chroma_db"))
+print(f"Using ChromaDB path: {CHROMA_PATH}")
 EMBEDDING_MODEL = "nomic-embed-text"
 LLM_MODEL = "llama3"
 COLLECTION_NAME = "restaurants"
