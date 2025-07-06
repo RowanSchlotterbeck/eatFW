@@ -24,7 +24,7 @@ COLLECTION_NAME = "restaurants"
 app = FastAPI()
 
 # Define the origins that are allowed to access the API
-# For development, this will be your Next.js frontend 
+# For development, this will be the Next.js frontend 
 # I think this will evenutally get changed once put on the cloud
 origins = [
     "http://localhost:3000",

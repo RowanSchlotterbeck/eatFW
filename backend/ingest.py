@@ -87,10 +87,7 @@ def ingest_data():
 
         # Create a richer document for embedding
         reviews = restaurant.get('reviews', [])
-        avg_rating = (
-            round(sum(r.get('rating', 0) for r in reviews) / len(reviews), 2)
-            if reviews else "N/A"
-        )
+        photos = restaurant.get('photos', [])
 
         menu_items = restaurant.get('menu', [])
         menu_highlights = (
@@ -101,11 +98,12 @@ def ingest_data():
         document = (
             f"Name: {restaurant.get('name', 'N/A')}\n"
             f"Cuisine: {restaurant.get('cuisine', 'N/A')}\n"
-            f"Price Range: {restaurant.get('price_range', 'N/A')}\n"
-            f"Address: {restaurant.get('address', 'N/A')}\n"
-            f"Average Rating: {avg_rating}\n"
+            f"Price Range: {restaurant.get('price_level', 'N/A')}\n"
+            f"Address: {restaurant.get('formatted_address', 'N/A')}\n"
+            f"Average Rating: {restaurant.get('rating', 'N/A')}\n"
             f"Menu Highlights: {menu_highlights}\n"
             f"Summary: {restaurant.get('summary', 'N/A')}"
+            f"Weekly Hours: {restaurant.get('weekday_text', 'N/A')}"
         )
         
         # Generate embedding
